@@ -17,6 +17,7 @@
           "type": "message",
           "settings": {
             "text": "Bequeme Ratenzahlung",
+            "announcement_icon": "shopify:\/\/shop_images\/Icon_Smart_Weiss.png",
             "url": ""
           }
         },
