@@ -1,7 +1,7 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "slideshow-MOD": {
+      "type": "slideshow-MOD",
       "blocks": {
         "slide-1": {
           "type": "image",
@@ -268,7 +268,7 @@
       }
     },
     "b36a6696-59d8-4a34-bcb9-84a680783fd7": {
-      "type": "multiple-images-with-text",
+      "type": "multiple-images-with-text-MOD",
       "blocks": {
         "template--16151280746657__b36a6696-59d8-4a34-bcb9-84a680783fd7-item-1": {
           "type": "item",
@@ -771,7 +771,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "slideshow-MOD",
     "1e162989-432e-4e74-bec8-740c549f8ccc",
     "95ee513e-8964-427c-b447-e87cb3441e0c",
     "1a57ac68-3d26-4fca-8e64-65cb13457853",

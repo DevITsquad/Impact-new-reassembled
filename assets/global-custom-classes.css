@@ -1,0 +1,15 @@
+
+.bold_custom{
+font-weight: 600;
+}
+strong {
+    color: #8BAD75 !important;
+}
+
+@media screen and (max-width:767px) {
+    .grey-background {
+        padding: 10px;
+        background-color: #ececec;
+        border-radius: 20px;
+    }
+}
