@@ -187,7 +187,7 @@
         "template--16151280746657__95ee513e-8964-427c-b447-e87cb3441e0c-heading-1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "md",
