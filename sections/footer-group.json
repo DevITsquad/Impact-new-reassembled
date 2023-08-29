@@ -1,0 +1,49 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "Kontakt",
+            "content": "<p>BRU AG<br\/>Buckhauserstrasse 34<br\/>8048 Zürich<br\/><br\/>Tel: +41 79 793 41 71<br\/>Mail: support@bru-tea.com<\/p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "9dc472fa-3f45-4f08-b3eb-32747abe7b11": {
+          "type": "links",
+          "settings": {
+            "menu": "ber-das-unternehmen",
+            "show_menu_title": true
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "text",
+        "9dc472fa-3f45-4f08-b3eb-32747abe7b11"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
