@@ -9,6 +9,7 @@
           "type": "message",
           "settings": {
             "text": "Kostenloser Versand",
+            "message_icon": "shopify:\/\/shop_images\/versand_icon_weiss.png",
             "url": ""
           }
         },
@@ -16,6 +17,7 @@
           "type": "message",
           "settings": {
             "text": "Bequeme Ratenzahlung",
+            "message_icon": "shopify:\/\/shop_images\/Icon_Smart_Weiss.png",
             "url": ""
           }
         },
@@ -23,6 +25,7 @@
           "type": "message",
           "settings": {
             "text": "Über 3.500 zufriedene Kunden",
+            "message_icon": "shopify:\/\/shop_images\/sterne_1_44cfe9b7-a826-42fc-adba-46f11c828ed4.png",
             "url": ""
           }
         },
@@ -30,6 +33,7 @@
           "type": "message",
           "settings": {
             "text": "Kontakt: support@bru-tea.com",
+            "message_icon": "shopify:\/\/shop_images\/Kontakt_Icon_weiss.png",
             "url": ""
           }
         }
