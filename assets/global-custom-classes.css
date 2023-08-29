@@ -5,6 +5,9 @@ font-weight: 600;
 strong {
     color: #8BAD75 !important;
 }
+.hide-me{
+    visibility: hidden !important;
+}
 
 @media screen and (max-width:767px) {
     .grey-background {

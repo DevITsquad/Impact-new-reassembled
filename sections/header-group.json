@@ -2,8 +2,8 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
+    "announcement-bar-MOD": {
+      "type": "announcement-bar-MOD",
       "blocks": {
         "message": {
           "type": "message",
@@ -77,7 +77,7 @@
     }
   },
   "order": [
-    "announcement-bar",
+    "announcement-bar-MOD",
     "header"
   ]
 }

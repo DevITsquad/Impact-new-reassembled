@@ -78,6 +78,7 @@
 {%- endif -%}
 
 <div {% render 'section-properties', narrow: is_narrow %}>
+    <div class="multiple-images__heading">{{ section.settings.main_heading }}</div>
   <multiple-images-with-text class="multiple-images-with-text">
     <multiple-images-with-text-image-list
       reversed
@@ -85,7 +86,7 @@
       layout="{{ section.settings.images_layout }}"
       class="multiple-images-with-text__image-list"
     >
-        <div class="multiple-images__heading">{{ section.settings.main_heading }}</div>
+        
       {%- if visible_images_count == 0 -%}
         {{- 'collection-1' | placeholder_svg_tag: 'placeholder' -}}
       {%- else -%}
@@ -189,7 +190,7 @@
 
 {% schema %}
 {
-  "name": "Multiple images with text",
+  "name": "Multiple img text MOD",
   "class": "shopify-section--multiple-images-with-text",
   "tag": "section",
   "disabled_on": {
