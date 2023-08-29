@@ -25,6 +25,7 @@
           "type": "message",
           "settings": {
             "text": "Über 3.500 zufriedene Kunden",
+            "announcement_icon": "shopify:\/\/shop_images\/sterne_1_44cfe9b7-a826-42fc-adba-46f11c828ed4.png",
             "url": ""
           }
         },
@@ -32,6 +33,7 @@
           "type": "message",
           "settings": {
             "text": "Kontakt: support@bru-tea.com",
+            "announcement_icon": "shopify:\/\/shop_images\/Kontakt_Icon_weiss.png",
             "url": ""
           }
         }
