@@ -415,12 +415,19 @@
           "settings": {
             "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden<\/p>"
           }
+        },
+        "719e9a54-bdee-429c-a320-57b6dc50acd1": {
+          "type": "image",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/siegel2.png"
+          }
         }
       },
       "block_order": [
         "template--16151280746657__521607f6-6d27-4f37-85c9-abe7b5de9149-subheading-1",
         "template--16151280746657__521607f6-6d27-4f37-85c9-abe7b5de9149-heading-1",
-        "template--16151280746657__521607f6-6d27-4f37-85c9-abe7b5de9149-richtext-1"
+        "template--16151280746657__521607f6-6d27-4f37-85c9-abe7b5de9149-richtext-1",
+        "719e9a54-bdee-429c-a320-57b6dc50acd1"
       ],
       "settings": {
         "full_width": false,
@@ -430,7 +437,7 @@
         "image": "shopify:\/\/shop_images\/tg_image_2480510092.png",
         "mobile_image": "shopify:\/\/shop_images\/tg_image_627899131.jpg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#1a1a1a",
         "overlay_color": "#ffffff",
         "overlay_opacity": 23
