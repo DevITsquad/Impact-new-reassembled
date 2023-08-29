@@ -314,12 +314,36 @@
             "button_url": "",
             "button_text": ""
           }
+        },
+        "df605bf9-3d3d-49cf-978f-e223cc9e8691": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "02b61fc7-2a7e-41fe-9055-6d25202754f1": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
         }
       },
       "block_order": [
         "template--16151280746657__b36a6696-59d8-4a34-bcb9-84a680783fd7-item-1",
         "template--16151280746657__b36a6696-59d8-4a34-bcb9-84a680783fd7-item-2",
-        "bf268430-805f-4cdc-b306-1e2e5a65222f"
+        "bf268430-805f-4cdc-b306-1e2e5a65222f",
+        "df605bf9-3d3d-49cf-978f-e223cc9e8691",
+        "02b61fc7-2a7e-41fe-9055-6d25202754f1"
       ],
       "settings": {
         "main_heading": "DIE 5 PRODUKTHIGHLIGHTS DES BRU MAKER ONE",
