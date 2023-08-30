@@ -306,7 +306,7 @@
         "before_after_text_position": "bottom",
         "before_text": "",
         "after_text": "",
-        "drag_initial_position": 45,
+        "drag_initial_position": 50,
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -398,7 +398,7 @@
         "template--16151280976033__28008808-b80d-4585-a45e-6b7a10854f51-play-1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "md",
