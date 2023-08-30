@@ -18,7 +18,7 @@
           "type": "links",
           "settings": {
             "title-link": "Kontakt",
-            "menu": "footer",
+            "menu": "",
             "richtext": "<p>BRU AG<br\/>Buckhauserstrasse 34<br\/>8048 Zürich<br\/><br\/>Tel: +41 79 793 41 71<br\/>Mail: support@bru-tea.com<\/p>",
             "show_menu_title": true
           }
@@ -26,7 +26,7 @@
         "76ec9445-abc8-4879-9d8a-344cdc981c52": {
           "type": "links",
           "settings": {
-            "title-link": "Über das Unternehmen",
+            "title-link": "Über uns",
             "menu": "ber-das-unternehmen",
             "richtext": "",
             "show_menu_title": true
