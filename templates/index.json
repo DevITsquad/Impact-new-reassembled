@@ -842,10 +842,13 @@
         "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3": {
           "type": "video",
           "settings": {
-            "video_text_url": "",
-            "story_quote": "",
-            "story_tag": "",
-            "footer_text": ""
+            "preview_img": "shopify:\/\/shop_images\/Frau_Weiss.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
+            "video": "shopify:\/\/files\/videos\/Frau Weiss  Video.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f1cb773607b410886c9581087697266.mp4",
+            "story_quote": "Tee wie ich ihn will",
+            "story_tag": "@bru_company",
+            "footer_text": "Superleichte Bedienung"
           }
         },
         "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4": {
