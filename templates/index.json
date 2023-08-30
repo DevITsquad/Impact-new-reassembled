@@ -454,6 +454,70 @@
         "text_color": ""
       }
     },
+    "055c714e-697a-439f-9656-7b2b6b03996f": {
+      "type": "video-stories-DEV",
+      "blocks": {
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-1": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau_Blau.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
+            "video": "shopify:\/\/files\/videos\/Frau Blau.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c1ca67924326488d87c17a23eb2e0790.mp4",
+            "story_quote": "Ich bin begeistert😍",
+            "story_tag": "@bru_company",
+            "footer_text": "Immer frisch aufgebrüht"
+          }
+        },
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Mann_Grau.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3.svg",
+            "video": "shopify:\/\/files\/videos\/mann grau.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9980264d4947422f8e403fb64fbc1c6b.mp4",
+            "story_quote": "Die beste Teemaschine",
+            "story_tag": "@bru_company",
+            "footer_text": "Egal ob Kalt oder Heiß"
+          }
+        },
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau_Weiss.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
+            "video": "shopify:\/\/files\/videos\/Frau Weiss  Video.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f1cb773607b410886c9581087697266.mp4",
+            "story_quote": "Tee wie ich ihn will",
+            "story_tag": "@bru_company",
+            "footer_text": "Superleichte Bedienung"
+          }
+        },
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau3.png",
+            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3_89dcd49a-8ded-4b11-9806-e25b199ccf52.svg",
+            "video": "shopify:\/\/files\/videos\/Frau 3.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2a41f26b7be24160a7e66451b0888535.mp4",
+            "story_quote": "Einfach lecker 🚀🙌",
+            "story_tag": "@bru_company",
+            "footer_text": "Perfekter Teegenuss"
+          }
+        }
+      },
+      "block_order": [
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-1",
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2",
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3",
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4"
+      ],
+      "settings": {
+        "heading": "UNSERE KUNDEN SIND BEGEISTERT",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
     "fd4d8cfd-cde7-4ac0-92fc-83d961463187": {
       "type": "media-with-text",
       "blocks": {
@@ -828,70 +892,6 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "055c714e-697a-439f-9656-7b2b6b03996f": {
-      "type": "video-stories-DEV",
-      "blocks": {
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-1": {
-          "type": "video",
-          "settings": {
-            "preview_img": "shopify:\/\/shop_images\/Frau_Blau.jpg",
-            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
-            "video": "shopify:\/\/files\/videos\/Frau Blau.mp4",
-            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c1ca67924326488d87c17a23eb2e0790.mp4",
-            "story_quote": "Ich bin begeistert😍",
-            "story_tag": "@bru_company",
-            "footer_text": "Immer frisch aufgebrüht"
-          }
-        },
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2": {
-          "type": "video",
-          "settings": {
-            "preview_img": "shopify:\/\/shop_images\/Mann_Grau.jpg",
-            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3.svg",
-            "video": "shopify:\/\/files\/videos\/mann grau.mp4",
-            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9980264d4947422f8e403fb64fbc1c6b.mp4",
-            "story_quote": "Die beste Teemaschine",
-            "story_tag": "@bru_company",
-            "footer_text": "Egal ob Kalt oder Heiß"
-          }
-        },
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3": {
-          "type": "video",
-          "settings": {
-            "preview_img": "shopify:\/\/shop_images\/Frau_Weiss.jpg",
-            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
-            "video": "shopify:\/\/files\/videos\/Frau Weiss  Video.mp4",
-            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/4f1cb773607b410886c9581087697266.mp4",
-            "story_quote": "Tee wie ich ihn will",
-            "story_tag": "@bru_company",
-            "footer_text": "Superleichte Bedienung"
-          }
-        },
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4": {
-          "type": "video",
-          "settings": {
-            "preview_img": "shopify:\/\/shop_images\/Frau3.png",
-            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3_89dcd49a-8ded-4b11-9806-e25b199ccf52.svg",
-            "video": "shopify:\/\/files\/videos\/Frau 3.mp4",
-            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2a41f26b7be24160a7e66451b0888535.mp4",
-            "story_quote": "Einfach lecker 🚀🙌",
-            "story_tag": "@bru_company",
-            "footer_text": "Perfekter Teegenuss"
-          }
-        }
-      },
-      "block_order": [
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-1",
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2",
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3",
-        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4"
-      ],
-      "settings": {
-        "heading": "UNSERE KUNDEN SIND BEGEISTERT",
-        "margin_top": 0,
-        "margin_bottom": 0
-      }
     }
   },
   "order": [
@@ -903,12 +903,12 @@
     "8b93b9a2-7a76-47e6-ad2f-5f6c885bfb97",
     "521607f6-6d27-4f37-85c9-abe7b5de9149",
     "f5e4aa74-da4a-4d1b-a247-e7727e4e4eff",
+    "055c714e-697a-439f-9656-7b2b6b03996f",
     "fd4d8cfd-cde7-4ac0-92fc-83d961463187",
     "bf4535ed-584a-4642-b8cf-226e61d903ef",
     "7799ae34-6038-4704-95f2-21b053588844",
     "1527e25b-dbf6-46a7-acbd-112045353714",
     "a5cdf8dc-1b44-4524-bc96-9ceff75b79b9",
-    "2bbd24f1-d59f-46f3-aa5d-12dfad144778",
-    "055c714e-697a-439f-9656-7b2b6b03996f"
+    "2bbd24f1-d59f-46f3-aa5d-12dfad144778"
   ]
 }
