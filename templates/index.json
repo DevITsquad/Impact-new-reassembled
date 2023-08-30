@@ -830,10 +830,13 @@
         "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2": {
           "type": "video",
           "settings": {
-            "video_text_url": "",
-            "story_quote": "",
-            "story_tag": "",
-            "footer_text": ""
+            "preview_img": "shopify:\/\/shop_images\/Mann_Grau.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3.svg",
+            "video": "shopify:\/\/files\/videos\/mann grau.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/9980264d4947422f8e403fb64fbc1c6b.mp4",
+            "story_quote": "Die beste Teemaschine",
+            "story_tag": "@bru_company",
+            "footer_text": "Egal ob Kalt oder Heiß"
           }
         },
         "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3": {
