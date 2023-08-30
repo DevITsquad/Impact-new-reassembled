@@ -12,13 +12,19 @@
         "26b3dd24-df2d-49d7-8fd9-91fc46a69404": {
           "type": "text",
           "settings": {
-            "text": "<p>Genuss & Zeitersparnis für echte Teeliebhaber<\/p>"
+            "text": "<p>Genuss & Zeitersparnis für echte Teeliebhaber<\/p>",
+            "text_color": "#ececec",
+            "font_size_desc": 20,
+            "font_size_mobile": 16
           }
         },
         "bee38007-8983-47ed-ac5d-b492efec2189": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Perfekt gebrühter Tee auf Knopfdruck<\/li><li>Für Teebeutel und losen Tee<\/li><li>2 in 1: Tee- und Wasserspender (bis zu 1,4 Liter)<\/li><li>Temperatur, Brühzeit und Menge frei einstellbar<\/li><li>Vollautomatische Reinigung<\/li><\/ul>"
+            "text": "<ul><li>Perfekt gebrühter Tee auf Knopfdruck<\/li><li>Für Teebeutel und losen Tee<\/li><li>2 in 1: Tee- und Wasserspender (bis zu 1,4 Liter)<\/li><li>Temperatur, Brühzeit und Menge frei einstellbar<\/li><li>Vollautomatische Reinigung<\/li><\/ul>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
           }
         },
         "variant_picker": {
@@ -39,7 +45,10 @@
         "9dfa6366-5fcb-4997-9896-91b8fb925572": {
           "type": "text",
           "settings": {
-            "text": "<p>Bereits über 3.500 zufriedene Teegenießer<\/p>"
+            "text": "<p>Bereits über 3.500 zufriedene Teegenießer<\/p>",
+            "text_color": "#5c6d2e",
+            "font_size_desc": 23,
+            "font_size_mobile": 16
           }
         },
         "price": {
@@ -51,7 +60,10 @@
         "eb584ae3-dfff-47df-866a-39ba93778f1b": {
           "type": "text",
           "settings": {
-            "text": "<p>Kostenlose Lieferung in 2-3 Arbeitstagen<\/p>"
+            "text": "<p>Kostenlose Lieferung in 2-3 Arbeitstagen<\/p>",
+            "text_color": "#8ba473",
+            "font_size_desc": 22,
+            "font_size_mobile": 16
           }
         },
         "buy_buttons": {
@@ -63,6 +75,17 @@
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
+          }
+        },
+        "31b5164b-0b61-4f11-b6d3-c9141831a922": {
+          "type": "shipping_icons",
+          "settings": {
+            "margin_top": 20,
+            "margin_bottom": 20,
+            "shipping_text": "",
+            "shipping_text_2": "",
+            "shipping_text_3": "",
+            "shipping_text_4": ""
           }
         },
         "79042494-d7ed-4935-b43b-fff02d653343": {
@@ -109,6 +132,7 @@
         "price",
         "eb584ae3-dfff-47df-866a-39ba93778f1b",
         "buy_buttons",
+        "31b5164b-0b61-4f11-b6d3-c9141831a922",
         "79042494-d7ed-4935-b43b-fff02d653343",
         "409fe9cb-3d6f-4674-8cb0-178d265a3a3e",
         "b6b9c18e-83ab-4542-b0c7-3152732df1de",
