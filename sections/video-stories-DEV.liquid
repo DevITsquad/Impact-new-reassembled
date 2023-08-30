@@ -319,34 +319,56 @@
 </div>
 
 <script>
-  let close_btn = document.querySelector('.video-stories__modal-close');
-  let main_video = document.querySelector('.modal__video');
-  let video_modal = document.querySelector('.video-stories__modal');
-  let stories = document.querySelectorAll('.content__item');
+// Get references to elements
+const closeBtn = document.querySelector('.video-stories__modal-close');
+const mainVideo = document.querySelector('.modal__video');
+const videoModal = document.querySelector('.video-stories__modal');
+const stories = document.querySelectorAll('.content__item');
+const modalOverlays = document.querySelectorAll('.video-stories__modal');
 
-  const toggleModal = (e) => {
-    if (
-      e.target.closest('.video-stories__modal-close') ||
-      e.which == '27' ||
-      e.target.closest('.video-stories__modal')
-    ) {
-      main_video && main_video.pause();
-      video_modal.classList.remove('active');
-      document.body.style.overflow = 'unset';
+// Function to toggle the modal
+const toggleModal = (e) => {
+    // Check if 'e' (event) is not provided means "Escape"
+    if (!e) {
+        // Close all modals and reset body overflow
+        modalOverlays.forEach((el) => {
+            el.classList.remove('active');
+            document.body.style.overflow = 'unset';
+        });
+    } else if (e.target.closest('.video-stories__modal-close') || e.target.closest('.video-stories__modal')) {
+        // Close the modal if close button or modal itself is clicked
+        mainVideo && mainVideo.pause();
+        videoModal.classList.remove('active');
+        document.body.style.overflow = 'unset';
     } else {
-      let video_src = e.target.closest('.content__item')?.dataset.videoSrc;
-      video_modal.classList.add('active');
-      main_video.src = video_src;
-      //block scroll
-      document.body.style.overflow = 'hidden';
+        // Open modal with clicked content item
+        let videoSrc = e.target.closest('.content__item')?.dataset.videoSrc;
+        videoModal.classList.add('active');
+        mainVideo.src = videoSrc;
+        document.body.style.overflow = 'hidden'; // Block scroll
     }
-  };
+};
 
-  close_btn.addEventListener('click', toggleModal);
-  stories.forEach((el) => el.addEventListener('click', toggleModal));
-  document.querySelectorAll('.video-stories__modal')?.forEach((modal) => {
-    modal.addEventListener('click', (event) => !event.target.closest('.modal__video') && toggleModal(event));
-  });
+// Event listener for 'Escape' key press
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        toggleModal();
+    }
+});
+
+// Event listeners for close button and content items
+closeBtn.addEventListener('click', toggleModal);
+stories.forEach((el) => el.addEventListener('click', toggleModal));
+
+// Event listeners to close modal when clicking outside the video
+modalOverlays.forEach((modal) => {
+    modal.addEventListener('click', (event) => {
+        // Close the modal only if the click is not on the video itself
+        if (!event.target.closest('.modal__video')) {
+            toggleModal(event);
+        }
+    });
+});
 </script>
 {% schema %}
 {
