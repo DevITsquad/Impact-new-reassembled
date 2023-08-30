@@ -423,11 +423,6 @@
             "subheading": "",
             "title": "",
             "heading_tag": "h0",
-            "content": "<p>Die erste All-in-1 Lösung fürauthentischen Tee-Genuss – so wie Tee wirklich schmecken soll<\/p>",
-            "caption": "unverbindlich 30 Tage ausprobieren",
-            "advantage": "Brühparameter individuell einstellbar",
-            "advantage2": "frischer Tee ob heiss oder kalt",
-            "advantage3": "für jeden Tee geeignet",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
@@ -758,6 +753,108 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "27bc3143-ecfe-4475-9b86-d75edcb25e71": {
+      "type": "image-with-columns-DEV",
+      "blocks": {
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Ersatz für deinen Wasserkocher",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
+            "content": "<p>Kein Platz? Kein Problem! Der BRU Maker One kann auch als Heißwasserspender genutzt werden. <br\/>Er liefert heißes Wasser in der von dir gewünschten Temperatur und Menge. Wir sagen “Tschüss Wasserkocher”!<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_2.svg",
+            "align_icon": "start",
+            "mobile_icon_width": 24,
+            "icon_width": 60
+          }
+        },
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Konstanter Geschmack",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
+            "content": "<p>Stelle die Wassertemperatur und Brühzeit individuell nach deinem Geschmack ein, oder wähle eine der Voreinstellung. Ob für grünen, schwarzen oder Kräutertee – wir garantieren immer gleichbleibenden Teegeschmack!<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_3_1.svg",
+            "align_icon": "start",
+            "mobile_icon_width": 24,
+            "icon_width": 60
+          }
+        },
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-3": {
+          "type": "tab",
+          "settings": {
+            "title": "Element 3",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
+            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
+            "icon": "picto-coupon",
+            "align_icon": "start",
+            "mobile_icon_width": 24,
+            "icon_width": 32
+          }
+        },
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-4": {
+          "type": "tab",
+          "settings": {
+            "title": "Element 4",
+            "align_title": "start",
+            "color_title": "",
+            "size_title": 23,
+            "size_title_mobile": 18,
+            "size_title_tablet": 16,
+            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "align_content": "start",
+            "color_content": "",
+            "size_content": 16,
+            "size_content_tablet": 15,
+            "size_content_mobile": 13,
+            "icon": "picto-coupon",
+            "align_icon": "start",
+            "mobile_icon_width": 24,
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-1",
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-2",
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-3",
+        "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_91.png",
+        "background_color": "",
+        "align_columns": "start"
+      }
     }
   },
   "order": [
@@ -774,6 +871,7 @@
     "a6be7bf4-ea5e-40c4-8a7d-f8526de0035e",
     "1ad5cf37-fa29-4b6b-9764-ead506898dca",
     "559a9ff1-2ebf-4c37-a18a-365417d11bd7",
-    "51da9878-7d8a-47da-a168-1e21b7ec3a9d"
+    "51da9878-7d8a-47da-a168-1e21b7ec3a9d",
+    "27bc3143-ecfe-4475-9b86-d75edcb25e71"
   ]
 }
