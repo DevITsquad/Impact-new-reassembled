@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Genuss & Zeitersparnis für echte Teeliebhaber<\/p>",
-            "text_color": "#ececec",
+            "text_color": "#d5d5d5",
             "font_size_desc": 20,
             "font_size_mobile": 16
           }
@@ -46,7 +46,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Bereits über 3.500 zufriedene Teegenießer<\/p>",
-            "text_color": "#5c6d2e",
+            "text_color": "#b5b5b5",
             "font_size_desc": 23,
             "font_size_mobile": 16
           }
