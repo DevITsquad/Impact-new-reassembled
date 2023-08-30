@@ -804,19 +804,20 @@
         "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-3": {
           "type": "tab",
           "settings": {
-            "title": "Element 3",
+            "title": "Nachhaltiger Tee-Genuss",
             "align_title": "start",
             "color_title": "",
             "size_title": 23,
             "size_title_mobile": 18,
             "size_title_tablet": 16,
-            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "content": "<p>Der BRU Maker spart Plastik, Energie und Wasser. Neben dem Verzicht auf Kapseln erhitzt unsere intelligente Teemaschine nur die benötigte Wassermenge. Jedes Jahr werden Tonnen von CO₂ und Wasser verschwendet, weil viele Menschen mehr Wasser aufheizen als eigentlich nötig. Nie wieder mit BRU!<\/p>",
             "align_content": "start",
             "color_content": "",
             "size_content": 16,
             "size_content_tablet": 15,
             "size_content_mobile": 13,
             "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/pdp_icon_2_4_1.svg",
             "align_icon": "start",
             "mobile_icon_width": 24,
             "icon_width": 32
