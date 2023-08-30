@@ -430,12 +430,11 @@
         "719e9a54-bdee-429c-a320-57b6dc50acd1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/tg_image_2480510092.png",
-        "mobile_image": "shopify:\/\/shop_images\/tg_image_627899131.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#1a1a1a",
@@ -557,6 +556,15 @@
       "settings": {
         "full_width": false,
         "spacing": "small"
+      }
+    },
+    "bf4535ed-584a-4642-b8cf-226e61d903ef": {
+      "type": "single-button-DEV",
+      "settings": {
+        "button__link": "shopify:\/\/products\/bru-maker-one",
+        "button__label": "JETZT TESTEN",
+        "margin__bottom": 0,
+        "margin__top": 0
       }
     },
     "7799ae34-6038-4704-95f2-21b053588844": {
@@ -719,6 +727,15 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "a5cdf8dc-1b44-4524-bc96-9ceff75b79b9": {
+      "type": "single-button-DEV",
+      "settings": {
+        "button__link": "shopify:\/\/pages\/help",
+        "button__label": "ALLE FRAGEN",
+        "margin__bottom": 0,
+        "margin__top": 0
       }
     },
     "2bbd24f1-d59f-46f3-aa5d-12dfad144778": {
@@ -887,8 +904,10 @@
     "521607f6-6d27-4f37-85c9-abe7b5de9149",
     "f5e4aa74-da4a-4d1b-a247-e7727e4e4eff",
     "fd4d8cfd-cde7-4ac0-92fc-83d961463187",
+    "bf4535ed-584a-4642-b8cf-226e61d903ef",
     "7799ae34-6038-4704-95f2-21b053588844",
     "1527e25b-dbf6-46a7-acbd-112045353714",
+    "a5cdf8dc-1b44-4524-bc96-9ceff75b79b9",
     "2bbd24f1-d59f-46f3-aa5d-12dfad144778",
     "055c714e-697a-439f-9656-7b2b6b03996f"
   ]
