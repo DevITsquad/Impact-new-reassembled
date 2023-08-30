@@ -380,12 +380,12 @@
       {%- when 'text' -%}
         {%- if block.settings.text != blank -%}
           <style>
-            #blockID--{{block.id}}{
+            #blockID--{{block.id}} p{
               color:{{block.settings.text_text_color}};
               font-size:{{block.settings.font_size_desc}}px;
             }
             @media screen and (max-width:767px){
-              #blockID--{{block.id}}{
+              #blockID--{{block.id}} p{
                 font-size:{{block.settings.font_size_mobile}}px;
               }
             }
