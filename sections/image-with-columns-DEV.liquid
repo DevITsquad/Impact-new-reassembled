@@ -26,7 +26,7 @@
   .element-icon {
     padding-bottom: 21px;
   }
-  .image-icon {
+  .custom-wrapper.image-icon {
     background-color: #f5f5f5;
   }
   @media screen and (max-width: 768px) {
@@ -37,19 +37,28 @@
     .main-img {
       width: 100%;
     }
+    .main-img img {
+      margin: auto;
+    }
     .content-element {
       width: 100%;
+      justify-content: space-between;
     }
     .element_item {
-      width: 50%;
+      width: 49%;
       margin-left: 0;
       margin-right: 0;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .element_item {
+      width: 48%;
     }
   }
 </style>
 
 <div
-  class="element-wrapper"
+  class="element-wrapper custom-wrapper"
   style="{% if section.settings.background_color != blank %}background-color: {{ section.settings.background_color }};{% endif %} justify-content:{{section.settings.align_columns}};"
 >
   {%- if section.settings.image -%}
