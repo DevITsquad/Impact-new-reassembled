@@ -8,8 +8,7 @@
     gap: var(--footer-block-gap);
   }
 
-  .footer__aside--custom,
-  .footer__block-list.footer__block-list-custom {
+  .footer__aside--custom{
     gap: var(--footer-block-gap);
   }
   .footer__copyright-custom {
@@ -40,6 +39,11 @@
     flex-direction: column;
     gap: var(--footer-block-gap);
   }
+  @media screen and (max-width: 1150px) {
+    .footer__block-list.footer__block-list-custom {
+        gap: var(--footer-block-gap);
+      }
+}
   @media screen and (max-width: 440px) {
     .footer__block-list.footer__block-list-custom {
         display: flex;
