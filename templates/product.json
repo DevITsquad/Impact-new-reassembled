@@ -826,13 +826,13 @@
         "template--16151397171361__27bc3143-ecfe-4475-9b86-d75edcb25e71-tab-4": {
           "type": "tab",
           "settings": {
-            "title": "Element 4",
+            "title": "Von Heiß bis Eistee",
             "align_title": "start",
             "color_title": "",
             "size_title": 23,
             "size_title_mobile": 18,
             "size_title_tablet": 16,
-            "content": "<p>Use this text to share information about your brand with your customers.<\/p>",
+            "content": "<p>Falls du keinen heißen Tee magst, fügt der BRU Maker One automatisch etwas kaltes Wasser hinzu, sodass der Tee auf eine trinkbereite Temperatur runtergekühlt wird. Und auch eine Kanne frisch gebrühter Eistee kann morgens aufgesetzt werden, um am Nachmittag genussvolle Erfrischung zu bieten.<\/p>",
             "align_content": "start",
             "color_content": "",
             "size_content": 16,
