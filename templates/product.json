@@ -153,22 +153,28 @@
           "settings": {
             "content": "<p>Da uns deine volle Zufriedenheit am Herzen liegt, bieten wir <strong>neben der 2-jährigen Garantie auch eine 30 Tage Zufriedenheitsgarantie<\/strong>.<br\/>Wenn du innerhalb der ersten 30 Tage merkst, dass der BRU Maker nicht zu dir passt (was wir stark bezweifeln) kannst du ihn uns ganz einfach zurücksenden.<\/p>"
           }
+        },
+        "85c7ec37-d31b-4f48-a066-94a6afdc4221": {
+          "type": "image",
+          "settings": {
+            "banner_img": "shopify:\/\/shop_images\/siegel2.png"
+          }
         }
       },
       "block_order": [
         "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-subheading-1",
         "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-heading-1",
-        "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-richtext-1"
+        "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-richtext-1",
+        "85c7ec37-d31b-4f48-a066-94a6afdc4221"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/tg_image_2480510092.png",
-        "mobile_image": "shopify:\/\/shop_images\/tg_image_627899131.jpg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#000000",
         "overlay_color": "#ffffff",
         "overlay_opacity": 30
@@ -417,6 +423,11 @@
             "subheading": "",
             "title": "",
             "heading_tag": "h0",
+            "content": "<p>Die erste All-in-1 Lösung fürauthentischen Tee-Genuss – so wie Tee wirklich schmecken soll<\/p>",
+            "caption": "unverbindlich 30 Tage ausprobieren",
+            "advantage": "Brühparameter individuell einstellbar",
+            "advantage2": "frischer Tee ob heiss oder kalt",
+            "advantage3": "für jeden Tee geeignet",
             "button_text": "",
             "button_link": "",
             "text_color": "#ffffff",
