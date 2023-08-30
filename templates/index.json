@@ -811,6 +811,61 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "055c714e-697a-439f-9656-7b2b6b03996f": {
+      "type": "video-stories-DEV",
+      "blocks": {
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-1": {
+          "type": "video",
+          "settings": {
+            "preview_img": "shopify:\/\/shop_images\/Frau_Blau.jpg",
+            "footer_arrow": "shopify:\/\/shop_images\/Icons_Schmidt-Uberdachungen_1_12ed3586-0cc8-4b9b-a86d-fdc15799db58.svg",
+            "video": "shopify:\/\/files\/videos\/Frau Blau.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c1ca67924326488d87c17a23eb2e0790.mp4",
+            "story_quote": "Ich bin begeistert😍",
+            "story_tag": "@bru_company",
+            "footer_text": "Immer frisch aufgebrüht"
+          }
+        },
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2": {
+          "type": "video",
+          "settings": {
+            "video_text_url": "",
+            "story_quote": "",
+            "story_tag": "",
+            "footer_text": ""
+          }
+        },
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3": {
+          "type": "video",
+          "settings": {
+            "video_text_url": "",
+            "story_quote": "",
+            "story_tag": "",
+            "footer_text": ""
+          }
+        },
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4": {
+          "type": "video",
+          "settings": {
+            "video_text_url": "",
+            "story_quote": "",
+            "story_tag": "",
+            "footer_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-1",
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-2",
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-3",
+        "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4"
+      ],
+      "settings": {
+        "heading": "UNSERE KUNDEN SIND BEGEISTERT",
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -825,6 +880,7 @@
     "fd4d8cfd-cde7-4ac0-92fc-83d961463187",
     "7799ae34-6038-4704-95f2-21b053588844",
     "1527e25b-dbf6-46a7-acbd-112045353714",
-    "2bbd24f1-d59f-46f3-aa5d-12dfad144778"
+    "2bbd24f1-d59f-46f3-aa5d-12dfad144778",
+    "055c714e-697a-439f-9656-7b2b6b03996f"
   ]
 }
