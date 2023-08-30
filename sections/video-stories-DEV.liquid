@@ -334,6 +334,7 @@ const toggleModal = (e) => {
         modalOverlays.forEach((el) => {
             el.classList.remove('active');
             document.body.style.overflow = 'unset';
+            mainVideo && mainVideo.pause();
         });
     } else if (e.target.closest('.video-stories__modal-close') || e.target.closest('.video-stories__modal')) {
         // Close the modal if close button or modal itself is clicked
