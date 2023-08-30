@@ -854,10 +854,13 @@
         "template--16151397433505__055c714e-697a-439f-9656-7b2b6b03996f-video-4": {
           "type": "video",
           "settings": {
-            "video_text_url": "",
-            "story_quote": "",
-            "story_tag": "",
-            "footer_text": ""
+            "preview_img": "shopify:\/\/shop_images\/Frau3.png",
+            "footer_arrow": "shopify:\/\/shop_images\/Pfeil_3_89dcd49a-8ded-4b11-9806-e25b199ccf52.svg",
+            "video": "shopify:\/\/files\/videos\/Frau 3.mp4",
+            "video_text_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2a41f26b7be24160a7e66451b0888535.mp4",
+            "story_quote": "Einfach lecker 🚀🙌",
+            "story_tag": "@bru_company",
+            "footer_text": "Perfekter Teegenuss"
           }
         }
       },
