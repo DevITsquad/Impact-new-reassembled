@@ -775,7 +775,7 @@
       }
     },
     "559a9ff1-2ebf-4c37-a18a-365417d11bd7": {
-      "type": "newsletter",
+      "type": "newsletter-MOD",
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
