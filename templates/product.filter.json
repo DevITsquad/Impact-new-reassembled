@@ -67,8 +67,8 @@
           "type": "text",
           "settings": {
             "text": "<p>Share some content to your customers about your products.<\/p>",
-            "text_color": "",
-            "font_size_desc": 18,
+            "text_color": "#8ba473",
+            "font_size_desc": 22,
             "font_size_mobile": 16
           }
         },
@@ -202,7 +202,7 @@
         "button_text_color": ""
       }
     },
-     "2bbd24f1-d59f-46f3-aa5d-12dfad144778": {
+    "2bbd24f1-d59f-46f3-aa5d-12dfad144778": {
       "type": "image-link-blocks",
       "blocks": {
         "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-1": {
