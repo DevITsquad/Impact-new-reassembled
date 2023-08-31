@@ -269,6 +269,79 @@
         "text_color": ""
       }
     },
+    "2c839a04-1d94-4cc2-8a0a-d52d310c7c33": {
+      "type": "video",
+      "blocks": {
+        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-play-1": {
+          "type": "play",
+          "settings": {
+          }
+        },
+        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-play-1",
+        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/Ice-T (1).mp4",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "e62b1cde-fe63-4fb9-af6a-964c55fa38f8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Sag \"Lebewohl\" zum zuckersüßen Pfirsicheistee! Ab sofort genießt du puren Pfirsichgenuss – herrlich erfrischend und völlig zuckerfrei.<\/h5><h5>In nur rund 5 Minuten zieht er in heissem Wasser und bietet dir eine sofortige Erfrischung, wie du sie noch nie erlebt hast!<\/h5><h5>Einfach 5 Minuten ziehen lassen – für ein Geschmackserlebnis, das spritzig und unverfälscht ist. Du möchtest den Geschmack noch intensiver? Kein Problem, lass ihn einfach länger ziehen.<\/h5><h5>Natürlicher Genuss in seiner besten Form: Wir glauben an die Reinheit der Natur. Deshalb ist unser Pfirsich frei von künstlichen Zusätzen und bietet dir das volle Aroma sonnenverwöhnter Pfirsiche, die in jedem Schluck spürbar sind.<\/h5><h5><\/h5><h5>Zutaten: Apfel, Karottenn, Spearmint, Pfirsich (3%), Antioxidationsmittel: Ascorbinsäure), Aroma.<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-subheading-1",
+        "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-heading-1",
+        "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "43b6b132-df45-4a52-ad97-34813af0f1df": {
       "type": "newsletter-MOD",
       "settings": {
@@ -376,46 +449,15 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "2c839a04-1d94-4cc2-8a0a-d52d310c7c33": {
-      "type": "video",
-      "blocks": {
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-play-1": {
-          "type": "play",
-          "settings": {
-          }
-        },
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-play-1",
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/Ice-T (1).mp4",
-        "external_video_url": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 20
-      }
     }
   },
   "order": [
     "main",
     "49498065-65fa-40e5-9b15-61fe42957939",
     "e9b12957-15d2-4122-8d6a-9a28a7e2dbca",
+    "2c839a04-1d94-4cc2-8a0a-d52d310c7c33",
+    "e62b1cde-fe63-4fb9-af6a-964c55fa38f8",
     "43b6b132-df45-4a52-ad97-34813af0f1df",
-    "2bbd24f1-d59f-46f3-aa5d-12dfad144778",
-    "2c839a04-1d94-4cc2-8a0a-d52d310c7c33"
+    "2bbd24f1-d59f-46f3-aa5d-12dfad144778"
   ]
 }
