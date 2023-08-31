@@ -85,6 +85,45 @@
         "input_text_color": ""
       }
     },
+    "e9b12957-15d2-4122-8d6a-9a28a7e2dbca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Optimale Wasserqualität",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Nie wieder lästiges Entkalken der Maschine. Die Verwendung von entkalktem Wasser für die Zubereitung von Tee verlängert die Lebensdauer deines BRU Maker One erheblich und gewährleistet eine optimale Wasserqualität deines Lieblingstees, damit sich der Geschmack und das Aroma von  Tee voll entfalten kann.<\/h5><h5>Dieser Wasserfilter ist so konzipiert, dass sie mit nur wenigen Handgriffen schnell und einfach ausgetauscht werden kann. Abhängig von der Wasserqualität empfehlen wir, die Patrone alle 2 Monate auszutauschen.<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-subheading-1",
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-heading-1",
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "43b6b132-df45-4a52-ad97-34813af0f1df": {
       "type": "newsletter-MOD",
       "settings": {
@@ -105,6 +144,7 @@
   },
   "order": [
     "main",
+    "e9b12957-15d2-4122-8d6a-9a28a7e2dbca",
     "43b6b132-df45-4a52-ad97-34813af0f1df"
   ]
 }
