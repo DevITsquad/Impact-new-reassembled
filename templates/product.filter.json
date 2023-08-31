@@ -20,6 +20,7 @@
         },
         "7a77b3b7-4dd3-4cba-a173-4a28ad3fe35a": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false
           }
@@ -27,7 +28,7 @@
         "cce98151-dc2a-4dc4-a384-faa1be87f96e": {
           "type": "text",
           "settings": {
-            "text": "<p>Share some content to your customers about your products.<\/p>",
+            "text": "<p>• Verstellbare Wasserfiltereinstellungen<\/p><p>• Frisch gefiltertes Wasser für ein volleres Teearoma<\/p><p>• Effizienterer Brühvorgang<\/p><p>• Schützt das System gegen Kalkablagerungen<\/p><p>• Verlängert die Lebensdauer des BRU Maker One<\/p>",
             "text_color": "",
             "font_size_desc": 18,
             "font_size_mobile": 16
