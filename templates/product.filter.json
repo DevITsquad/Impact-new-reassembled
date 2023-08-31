@@ -51,9 +51,9 @@
         "b8729470-4e24-49c7-9e0e-98097842b593": {
           "type": "text",
           "settings": {
-            "text": "<p>Share some content to your customers about your products.<\/p>",
-            "text_color": "",
-            "font_size_desc": 18,
+            "text": "<p>Modellbezeichnung: Brita Intenza+ CA6702\/10<\/p>",
+            "text_color": "#a9a9c3",
+            "font_size_desc": 24,
             "font_size_mobile": 16
           }
         },
