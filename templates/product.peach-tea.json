@@ -164,20 +164,21 @@
             "icon_background": "",
             "icon_color": "",
             "title": "90°C",
-            "content": "<h2>Temperatur<\/h2>"
+            "content": "<p>Temperatur<\/p>"
           }
         },
         "template--16153171427489__49498065-65fa-40e5-9b15-61fe42957939-item-2": {
           "type": "item",
           "settings": {
             "icon": "picto-coupon",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
+            "custom_icon": "shopify:\/\/shop_images\/hot-chocolate_3347980.svg",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            "title": "250 ml",
+            "content": "<p>Wassermenge<\/p>"
           }
         },
         "template--16153171427489__49498065-65fa-40e5-9b15-61fe42957939-item-3": {
