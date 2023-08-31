@@ -12,7 +12,7 @@
         "05c42a30-b57d-4354-bf79-47e09c648d71": {
           "type": "text",
           "settings": {
-            "text": "<p>Die perfekte Tasse für jeden Tee<\/p>",
+            "text": "<p>Natürlich süss und lecker<\/p>",
             "text_color": "#a9a9c3",
             "font_size_desc": 18,
             "font_size_mobile": 16
@@ -28,7 +28,7 @@
         "cce98151-dc2a-4dc4-a384-faa1be87f96e": {
           "type": "text",
           "settings": {
-            "text": "<p>• Laborqualität Borosilikatglas<\/p><p>• Doppelwandige Isolation<\/p><p>• Ergonomischer Griff<\/p><p>• Perfekte Grösse<\/p><p>• Zeitloses Design<\/p>",
+            "text": "<p>Erlebe die Revolution des Pfirsichgenusses: unser Fresh Peach Tee mit fruchtigem und frischem Geschmack von Pfirsich, Apfel, Karotten und Spearmint.<\/p><p>Kann auch auf Eis serviert werden<\/p><h3><strong>150g <\/strong><\/h3>",
             "text_color": "",
             "font_size_desc": 18,
             "font_size_mobile": 16
@@ -67,6 +67,7 @@
         },
         "07ad492a-6c6f-49cf-8b1b-90a56a09e01e": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Kostenlose Lieferung in 2-3 Arbeitstagen<\/p>",
             "text_color": "#8ba473",
@@ -76,6 +77,7 @@
         },
         "555abb21-05c1-4048-bccc-e0d6d15d784e": {
           "type": "separator",
+          "disabled": true,
           "settings": {
           }
         },
