@@ -279,6 +279,7 @@
         },
         "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Video",
             "heading_tag": "h1"
