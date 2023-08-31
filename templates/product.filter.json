@@ -56,6 +56,61 @@
             "font_size_desc": 18,
             "font_size_mobile": 16
           }
+        },
+        "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "07ad492a-6c6f-49cf-8b1b-90a56a09e01e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.<\/p>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
+        },
+        "555abb21-05c1-4048-bccc-e0d6d15d784e": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "b85808d9-309d-401a-b171-dbc41fd62cf0": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "483b03cb-fbe3-4de3-8229-aaac39b68e91": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "9e5cf489-3824-4390-aef3-f9f0eb23af01": {
+          "type": "shipping_icons",
+          "disabled": true,
+          "settings": {
+            "margin_top": 20,
+            "margin_bottom": 20,
+            "shipping_text": "",
+            "shipping_text_2": "",
+            "shipping_text_3": "",
+            "shipping_text_4": ""
+          }
         }
       },
       "block_order": [
@@ -65,7 +120,13 @@
         "cce98151-dc2a-4dc4-a384-faa1be87f96e",
         "7111b4e9-9cda-4bf5-b037-213077665749",
         "0bd9fe4d-8903-4a5a-afc0-9d3d107bd573",
-        "b8729470-4e24-49c7-9e0e-98097842b593"
+        "b8729470-4e24-49c7-9e0e-98097842b593",
+        "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80",
+        "07ad492a-6c6f-49cf-8b1b-90a56a09e01e",
+        "555abb21-05c1-4048-bccc-e0d6d15d784e",
+        "b85808d9-309d-401a-b171-dbc41fd62cf0",
+        "483b03cb-fbe3-4de3-8229-aaac39b68e91",
+        "9e5cf489-3824-4390-aef3-f9f0eb23af01"
       ],
       "settings": {
         "full_width": true,
