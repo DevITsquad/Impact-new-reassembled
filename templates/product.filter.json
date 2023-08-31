@@ -1,12 +1,110 @@
 {
-    "sections": {
-      "main": {
-        "type": "main-product-MOD",
-        "settings": {
+  "sections": {
+    "main": {
+      "type": "main-product-MOD",
+      "blocks": {
+        "f98b2504-b509-4f5d-8a3d-e03f3f4b86ea": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "05c42a30-b57d-4354-bf79-47e09c648d71": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.<\/p>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
+        },
+        "7a77b3b7-4dd3-4cba-a173-4a28ad3fe35a": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "cce98151-dc2a-4dc4-a384-faa1be87f96e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.<\/p>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
+        },
+        "7111b4e9-9cda-4bf5-b037-213077665749": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "0bd9fe4d-8903-4a5a-afc0-9d3d107bd573": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "b8729470-4e24-49c7-9e0e-98097842b593": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.<\/p>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
         }
+      },
+      "block_order": [
+        "f98b2504-b509-4f5d-8a3d-e03f3f4b86ea",
+        "05c42a30-b57d-4354-bf79-47e09c648d71",
+        "7a77b3b7-4dd3-4cba-a173-4a28ad3fe35a",
+        "cce98151-dc2a-4dc4-a384-faa1be87f96e",
+        "7111b4e9-9cda-4bf5-b037-213077665749",
+        "0bd9fe4d-8903-4a5a-afc0-9d3d107bd573",
+        "b8729470-4e24-49c7-9e0e-98097842b593"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
-    "order": [
-      "main"
-    ]
-  }
+    "43b6b132-df45-4a52-ad97-34813af0f1df": {
+      "type": "newsletter-MOD",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
+        "show_icon": false,
+        "title": "Der BRU Newsletter",
+        "content": "<p>Mit deiner Anmeldung gibst du dein Einverständnis E-Mails von uns zu erhalten. Du kannst den Newsletter jederzeit abmelden.<\/p>",
+        "button_text": "Jetzt anmelden",
+        "subtext": "Mit deiner Anmeldung gibst du dein Einverständnis E-Mails von uns zu erhalten. Du kannst den Newsletter jederzeit abmelden.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "43b6b132-df45-4a52-ad97-34813af0f1df"
+  ]
+}
