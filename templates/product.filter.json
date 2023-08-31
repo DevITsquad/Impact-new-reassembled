@@ -12,8 +12,8 @@
         "05c42a30-b57d-4354-bf79-47e09c648d71": {
           "type": "text",
           "settings": {
-            "text": "<p>Share some content to your customers about your products.<\/p>",
-            "text_color": "",
+            "text": "<p>Frisch gefiltertes Wasser für ein intensives Aroma<\/p>",
+            "text_color": "#a9a9c3",
             "font_size_desc": 18,
             "font_size_mobile": 16
           }
