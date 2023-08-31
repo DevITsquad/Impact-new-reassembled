@@ -1,0 +1,305 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product-MOD",
+      "blocks": {
+        "f98b2504-b509-4f5d-8a3d-e03f3f4b86ea": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "05c42a30-b57d-4354-bf79-47e09c648d71": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die perfekte Tasse für jeden Tee<\/p>",
+            "text_color": "#a9a9c3",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
+        },
+        "7a77b3b7-4dd3-4cba-a173-4a28ad3fe35a": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "cce98151-dc2a-4dc4-a384-faa1be87f96e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>• Laborqualität Borosilikatglas<\/p><p>• Doppelwandige Isolation<\/p><p>• Ergonomischer Griff<\/p><p>• Perfekte Grösse<\/p><p>• Zeitloses Design<\/p>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
+        },
+        "7111b4e9-9cda-4bf5-b037-213077665749": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "0bd9fe4d-8903-4a5a-afc0-9d3d107bd573": {
+          "type": "payment_terms",
+          "settings": {
+          }
+        },
+        "b8729470-4e24-49c7-9e0e-98097842b593": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Modellbezeichnung: Brita Intenza+ CA6702\/10<\/p>",
+            "text_color": "#a9a9c3",
+            "font_size_desc": 24,
+            "font_size_mobile": 16
+          }
+        },
+        "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "07ad492a-6c6f-49cf-8b1b-90a56a09e01e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kostenlose Lieferung in 2-3 Arbeitstagen<\/p>",
+            "text_color": "#8ba473",
+            "font_size_desc": 22,
+            "font_size_mobile": 16
+          }
+        },
+        "555abb21-05c1-4048-bccc-e0d6d15d784e": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "b85808d9-309d-401a-b171-dbc41fd62cf0": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "483b03cb-fbe3-4de3-8229-aaac39b68e91": {
+          "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "locale_option": "geolocation",
+            "locale_fallback": "",
+            "theme": "light",
+            "topPadding": "0",
+            "bottomPadding": "0",
+            "messagePrefix": ""
+          }
+        },
+        "9e5cf489-3824-4390-aef3-f9f0eb23af01": {
+          "type": "shipping_icons",
+          "disabled": true,
+          "settings": {
+            "margin_top": 20,
+            "margin_bottom": 20,
+            "shipping_text": "",
+            "shipping_text_2": "",
+            "shipping_text_3": "",
+            "shipping_text_4": ""
+          }
+        }
+      },
+      "block_order": [
+        "f98b2504-b509-4f5d-8a3d-e03f3f4b86ea",
+        "05c42a30-b57d-4354-bf79-47e09c648d71",
+        "7a77b3b7-4dd3-4cba-a173-4a28ad3fe35a",
+        "cce98151-dc2a-4dc4-a384-faa1be87f96e",
+        "7111b4e9-9cda-4bf5-b037-213077665749",
+        "0bd9fe4d-8903-4a5a-afc0-9d3d107bd573",
+        "b8729470-4e24-49c7-9e0e-98097842b593",
+        "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80",
+        "07ad492a-6c6f-49cf-8b1b-90a56a09e01e",
+        "555abb21-05c1-4048-bccc-e0d6d15d784e",
+        "b85808d9-309d-401a-b171-dbc41fd62cf0",
+        "483b03cb-fbe3-4de3-8229-aaac39b68e91",
+        "9e5cf489-3824-4390-aef3-f9f0eb23af01"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "e9b12957-15d2-4122-8d6a-9a28a7e2dbca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Geniesse mit Stil",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5>Die BRU-Tasse wurde im Rahmen der Entwicklung unserer innovativen Teemaschine geboren. <\/h5><h5>Ein Stück Qualität, das unser Logo trägt und einen Hauch von Sammlerstück-Charakter mitbringt. Eine Tasse, die deine Genussmomente auf eine einzigartige Weise bereichert.<\/h5><h5>Sie fasst 350 ml und ist natürlich Spülmaschinenfest.<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-subheading-1",
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-heading-1",
+        "template--16153140166817__e9b12957-15d2-4122-8d6a-9a28a7e2dbca-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "43b6b132-df45-4a52-ad97-34813af0f1df": {
+      "type": "newsletter-MOD",
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
+        "show_icon": false,
+        "title": "Der BRU Newsletter",
+        "content": "<p>Profitiere von tollen Angeboten.<br\/><br\/>Erhalte Tipps und Tricks rund um die Teezubereitung.<br\/><br\/>Bekomme exklusive Vorabinfos zu neuen Produkten. <\/p>",
+        "button_text": "Jetzt anmelden",
+        "subtext": "Mit deiner Anmeldung gibst du dein Einverständnis E-Mails von uns zu erhalten. Du kannst den Newsletter jederzeit abmelden.",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "2bbd24f1-d59f-46f3-aa5d-12dfad144778": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_4.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AEAABD4D-4AB6-4385-A8C5-1A66B33AADDE_1_105_c_6fd5e770-9b74-4133-a3ab-7144bde0fb0d.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20D0AD82-9226-4D96-9516-AC0E5D19C60E_1_105_c_08809c53-cdff-45d3-b482-b39285d2f6e9.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_80_9806b764-2ad2-4467-8680-4f8f2e09e56f.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "93c0993a-ad35-42b2-9700-7888b03ad093": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/before_after_3.png",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-1",
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-2",
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-3",
+        "template--16151280746657__2bbd24f1-d59f-46f3-aa5d-12dfad144778-item-4",
+        "93c0993a-ad35-42b2-9700-7888b03ad093"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e9b12957-15d2-4122-8d6a-9a28a7e2dbca",
+    "43b6b132-df45-4a52-ad97-34813af0f1df",
+    "2bbd24f1-d59f-46f3-aa5d-12dfad144778"
+  ]
+}
