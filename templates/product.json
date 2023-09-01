@@ -286,7 +286,7 @@
       }
     },
     "92445b42-2e21-4846-a2df-f0ba45a4872e": {
-      "type": "media-with-text",
+      "type": "media-with-text-MOD",
       "blocks": {
         "template--16151280976033__92445b42-2e21-4846-a2df-f0ba45a4872e-image-1": {
           "type": "image",
