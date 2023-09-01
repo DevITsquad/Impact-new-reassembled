@@ -80,7 +80,7 @@
           "settings": {
             "icon": "picto-shield",
             "custom_icon": "shopify:\/\/shop_images\/merkur_logo_1.svg",
-            "mobile_icon_width": 120,
+            "mobile_icon_width": 160,
             "icon_width": 180,
             "icon_background_type": "none",
             "icon_background": "",
@@ -94,7 +94,7 @@
           "settings": {
             "icon": "picto-star",
             "custom_icon": "shopify:\/\/shop_images\/Mask_group.svg",
-            "mobile_icon_width": 120,
+            "mobile_icon_width": 160,
             "icon_width": 180,
             "icon_background_type": "none",
             "icon_background": "",
@@ -108,7 +108,7 @@
           "settings": {
             "icon": "picto-validation",
             "custom_icon": "shopify:\/\/shop_images\/logo_world_of_tea_1.svg",
-            "mobile_icon_width": 120,
+            "mobile_icon_width": 160,
             "icon_width": 180,
             "icon_background_type": "none",
             "icon_background": "",
@@ -136,7 +136,7 @@
           "settings": {
             "icon": "picto-coupon",
             "custom_icon": "shopify:\/\/shop_images\/galaxus-logo-vector_1.png",
-            "mobile_icon_width": 120,
+            "mobile_icon_width": 160,
             "icon_width": 200,
             "icon_background_type": "none",
             "icon_background": "",
