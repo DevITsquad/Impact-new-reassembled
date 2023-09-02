@@ -46,15 +46,15 @@
         "settings": {
         }
       },
-      "6143736321357441667": {
-        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+      "4275615285897611771": {
+        "type": "shopify:\/\/apps\/fera\/blocks\/embed\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
         "disabled": false,
         "settings": {
         }
       },
-      "4275615285897611771": {
-        "type": "shopify:\/\/apps\/fera\/blocks\/embed\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
-        "disabled": false,
+      "6143736321357441667": {
+        "type": "shopify:\/\/apps\/tidio-live-chat-chatbots\/blocks\/app-embed\/1002274d-fb18-4939-98f6-5f05a8deeadc",
+        "disabled": true,
         "settings": {
         }
       }
