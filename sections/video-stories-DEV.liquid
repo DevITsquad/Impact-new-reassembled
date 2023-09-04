@@ -257,9 +257,10 @@
     <div class="video-stories__heading">{{ section.settings.heading }}</div>
     <div class="video-stories__content">
       {% for block in section.blocks %}
+      
         <div
           class="content__item"
-          data-video-src="{% if block.settings.video_text_url != blank %}{{  block.settings.video_text_url }}{% else %}{{ block.settings.video.sources[1].url }} {% endif %}"
+          data-video-src="{{block.settings.video.sources[1].url}}"
         >
           <div class="content__preview-img">
             <img
@@ -339,17 +340,21 @@ const toggleModal = (e) => {
             document.body.style.overflow = 'unset';
             mainVideo && mainVideo.pause();
         });
-    } else if (e.target.closest('.video-stories__modal-close') || e.target.closest('.video-stories__modal')) {
+        console.log('esc close')
+    } else if (e.currentTarget.closest('.video-stories__modal-close') || e.currentTarget.closest('.video-stories__modal')) {
         // Close the modal if close button or modal itself is clicked
         mainVideo && mainVideo.pause();
         videoModal.classList.remove('active');
         document.body.style.overflow = 'unset';
+        console.log('btn or modal close', e.currentTarget)
     } else {
         // Open modal with clicked content item
-        let videoSrc = e.target.closest('.content__item')?.dataset.videoSrc;
+        let videoSrc = e.currentTarget.closest('.content__item').dataset.videoSrc;
+       
         videoModal.classList.add('active');
         mainVideo.src = videoSrc;
         document.body.style.overflow = 'hidden'; // Block scroll
+        console.log('open', e.currentTarget)
     }
 };
 
