@@ -49,15 +49,6 @@
           "settings": {
           }
         },
-        "b8729470-4e24-49c7-9e0e-98097842b593": {
-          "type": "text",
-          "settings": {
-            "text": "<h6>Modell: Brita Intenza+ CA6702\/10<\/h6>",
-            "text_color": "#a9a9c3",
-            "font_size_desc": 24,
-            "font_size_mobile": 16
-          }
-        },
         "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80": {
           "type": "price",
           "settings": {
@@ -109,7 +100,6 @@
         "cce98151-dc2a-4dc4-a384-faa1be87f96e",
         "7111b4e9-9cda-4bf5-b037-213077665749",
         "0bd9fe4d-8903-4a5a-afc0-9d3d107bd573",
-        "b8729470-4e24-49c7-9e0e-98097842b593",
         "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80",
         "07ad492a-6c6f-49cf-8b1b-90a56a09e01e",
         "555abb21-05c1-4048-bccc-e0d6d15d784e",
