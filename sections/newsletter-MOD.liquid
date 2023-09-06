@@ -48,6 +48,46 @@
           }
         }
   
+
+
+
+        #shopify-section-{{ section.id }}  .content-text__custom span{
+        display:flex;
+        align-items:center;
+        gap:14px;
+        }
+        #shopify-section-{{ section.id }}  .content-text__custom{
+        display:flex;
+        flex-direction:column;
+        gap:15px;
+        }
+        #shopify-section-{{ section.id }}  .content-text__custom svg{
+        min-width:17px;
+        min-height:16px;
+        }
+        #shopify-section-{{ section.id }} .heading-text__custom{
+        font-size:{{section.settings.heading_font_size}}px;
+        color:{{section.settings.heading_color}};
+        
+        }
+      
+        #shopify-section-{{ section.id }} .content-text__custom{
+          font-size:{{section.settings.content_font_size}}px;
+          color:{{section.settings.content_color}};
+          font-weight:bold;
+        }
+      
+        @media screen and (max-width:701px){
+          #shopify-section-{{ section.id }} .heading-text__custom{
+            font-size:{{section.settings.heading_font_size_mobile}}px;
+          }
+      
+          #shopify-section-{{ section.id }} .content-text__custom{
+            font-size:{{section.settings.content_font_size_mobile}}px;
+          }
+        }
+      
+
 </style>
 
 {%- capture newsletter_content -%}
@@ -59,10 +99,13 @@
     {%- if section.settings.title != blank or section.settings.content -%}
       <div class="prose">
         {%- if section.settings.title != blank -%}
-          <h2 class="h2">{{ section.settings.title }}</h2>
+          <h2 class="h2 heading-text__custom">{{ section.settings.title }}</h2>
         {%- endif -%}
-
-        {{- section.settings.content -}}
+      <div class="content-text__custom">  
+     <span><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928932C9.95262 0.538408 9.31946 0.538408 8.92893 0.928932C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM0 9H16V7H0V9Z" fill="#8BAD75"></path> </svg>  {{- section.settings.content_1 -}}</span>
+     <span><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928932C9.95262 0.538408 9.31946 0.538408 8.92893 0.928932C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM0 9H16V7H0V9Z" fill="#8BAD75"></path> </svg> {{- section.settings.content_2 -}}</span>
+     <span><svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M16.7071 8.70711C17.0976 8.31658 17.0976 7.68342 16.7071 7.29289L10.3431 0.928932C9.95262 0.538408 9.31946 0.538408 8.92893 0.928932C8.53841 1.31946 8.53841 1.95262 8.92893 2.34315L14.5858 8L8.92893 13.6569C8.53841 14.0474 8.53841 14.6805 8.92893 15.0711C9.31946 15.4616 9.95262 15.4616 10.3431 15.0711L16.7071 8.70711ZM0 9H16V7H0V9Z" fill="#8BAD75"></path> </svg> {{- section.settings.content_3 -}}</span>
+        </div>      
       </div>
     {%- endif -%}
 
@@ -148,10 +191,74 @@
       "default": "Newsletter"
     },
     {
-      "type": "richtext",
-      "id": "content",
-      "label": "Content",
-      "default": "<p>Write something about what your customers will receive by subscribing to your newsletter.</p>"
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 26
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "content_1",
+      "label": "Content 1",
+      "default": "Profitiere von tollen Angeboten"
+    },
+    {
+      "type": "text",
+      "id": "content_2",
+      "label": "Content 2",
+      "default": "Erhalte Tipps und Tricks rund um die Teezubereitung"
+    },
+    {
+      "type": "text",
+      "id": "content_3",
+      "label": "Content 3",
+      "default": "Bekomme exklusive Vorabinfos zu neuen Produkten"
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "label": "Content font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "content_font_size_mobile",
+      "label": "Content font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#000000"
     },
     {
       "type": "text",

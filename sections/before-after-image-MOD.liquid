@@ -15,9 +15,7 @@ CSS
 
     --before-after-initial-drag-position: {{ section.settings.drag_initial_position }}%;
   }
-  #shopify-section-{{ section.id }} .section{
-padding-bottom:1.5rem;   
-  }
+ 
 
   .custom-section-stack__intro,.custom-section-stack__intro{
     flex-basis:50%;
@@ -62,11 +60,50 @@ padding-bottom:1.5rem;
   .max-custom-height img{
     height:100%;
   }
-  @media screen and (max-width:699px){
-     #shopify-section-{{ section.id }} .section{
-    padding-bottom:1.25rem;   
-     }
+
+  {% if section.settings.is_small_bottom_padding %}
+    #shopify-section-{{ section.id }} .section{
+      padding-bottom:1.5rem;
+        }
+        @media screen and (max-width:701px){
+          #shopify-section-{{ section.id }} .section{
+         padding-bottom:1.25rem;
+          }
+       }
+  {% endif %}
+
+
+
+  #shopify-section-{{ section.id }} .subheading-text__custom{
+    font-size:{{section.settings.subheading_font_size}}px;
+    color:{{section.settings.subheading_color}};
   }
+  #shopify-section-{{ section.id }} .heading-text__custom{
+  font-size:{{section.settings.heading_font_size}}px;
+  color:{{section.settings.heading_color}};
+  margin-top:5px;
+  }
+
+  #shopify-section-{{ section.id }} .content-text__custom{
+    font-size:{{section.settings.content_font_size}}px;
+    color:{{section.settings.content_color}};
+  }
+
+  @media screen and (max-width:701px){
+     #shopify-section-{{ section.id }} .subheading-text__custom{
+      font-size:{{section.settings.subheading_font_size_mobile}}px;
+    }
+    #shopify-section-{{ section.id }} .heading-text__custom{
+      font-size:{{section.settings.heading_font_size_mobile}}px;
+    }
+
+    #shopify-section-{{ section.id }} .content-text__custom{
+      font-size:{{section.settings.content_font_size_mobile}}px;
+    }
+  }
+
+
+
 </style>
 
 {%- comment -%}
@@ -79,14 +116,15 @@ LIQUID
   <div class="section-stack custom-section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}">
     {%- capture content -%}
       {%- if section.settings.subheading != blank -%}
-        <p class="bold">{{ section.settings.subheading | escape }}</p>
+        <p class="bold subheading-text__custom">{{ section.settings.subheading | escape }}</p>
       {%- endif -%}
 
       {%- if section.settings.title != blank -%}
-        <h2 class="h2">{{ section.settings.title | escape }}</h2>
+        <h2 class="h2 heading-text__custom">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
-
-      {{- section.settings.content -}}
+      <div class="content-text__custom">
+        {{- section.settings.content -}}
+      </div>
     {%- endcapture -%}
 
     {%- if content != blank -%}
@@ -160,9 +198,41 @@ LIQUID
       "default": true
     },
     {
+      "type": "checkbox",
+      "id": "is_small_bottom_padding",
+      "label": "is small bottom padding?",
+      "default": true
+    },
+    {
       "type": "text",
       "id": "subheading",
       "label": "Subheading"
+    }, 
+    {
+      "type": "range",
+      "id": "subheading_font_size",
+      "label": "Subheading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 23
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size_mobile",
+      "label": "Subheading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 19
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#000000"
     },
     {
       "type": "text",
@@ -171,10 +241,62 @@ LIQUID
       "default": "Before/after"
     },
     {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 21
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#A9A9C3"
+    },
+    {
       "type": "richtext",
       "id": "content",
       "label": "Content",
       "default": "<p>Showcase your product benefit by using before/after image comparison.</p>"
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "label": "Content font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "content_font_size_mobile",
+      "label": "Content font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#000000"
     },
     {
       "type": "image_picker",

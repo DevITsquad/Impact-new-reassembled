@@ -63,6 +63,32 @@
       margin-bottom: 37px;
     }
   }
+  #shopify-section-{{ section.id }} .subheading-text__custom{
+    font-size:{{section.settings.subheading_font_size}}px;
+    color:{{section.settings.subheading_color}};
+  }
+  #shopify-section-{{ section.id }} .heading-text__custom{
+  font-size:{{section.settings.heading_font_size}}px;
+  color:{{section.settings.heading_color}};
+  }
+
+  #shopify-section-{{ section.id }} .content-text__custom{
+    font-size:{{section.settings.content_font_size}}px;
+    color:{{section.settings.content_color}};
+  }
+
+  @media screen and (max-width:701px){
+     #shopify-section-{{ section.id }} .subheading-text__custom{
+      font-size:{{section.settings.subheading_font_size_mobile}}px;
+    }
+    #shopify-section-{{ section.id }} .heading-text__custom{
+      font-size:{{section.settings.heading_font_size_mobile}}px;
+    }
+
+    #shopify-section-{{ section.id }} .content-text__custom{
+      font-size:{{section.settings.content_font_size_mobile}}px;
+    }
+  }
 </style>
 
 {%- comment -%}
@@ -78,7 +104,7 @@
 {%- endif -%}
 
 <div {% render 'section-properties', narrow: is_narrow %}>
-    <div class="multiple-images__heading">{{ section.settings.main_heading }}</div>
+  <div class="multiple-images__heading">{{ section.settings.main_heading }}</div>
   <multiple-images-with-text class="multiple-images-with-text">
     <multiple-images-with-text-image-list
       reversed
@@ -86,7 +112,6 @@
       layout="{{ section.settings.images_layout }}"
       class="multiple-images-with-text__image-list"
     >
-        
       {%- if visible_images_count == 0 -%}
         {{- 'collection-1' | placeholder_svg_tag: 'placeholder' -}}
       {%- else -%}
@@ -139,12 +164,12 @@
               {{ block.shopify_attributes }}
             >
               {%- if block.settings.subheading != blank -%}
-                <p class="bold">{{ block.settings.subheading | escape }}</p>
+                <p class="bold subheading-text__custom">{{ block.settings.subheading | escape }}</p>
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
                 <p
-                  class="h1"
+                  class="h1 heading-text__custom"
                   {% if settings.heading_apparition != 'none' %}
                     reveal-on-scroll="true"
                   {% endif %}
@@ -152,8 +177,7 @@
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
                 </p>
               {%- endif -%}
-
-              {{- block.settings.content -}}
+              <div class="content-text__custom">{{- block.settings.content -}}</div>
 
               {%- if block.settings.button_text != blank -%}
                 {%- render 'button',
@@ -203,7 +227,7 @@
       "type": "text",
       "id": "main_heading",
       "label": "Section heading",
-      "default":"DIE 5 PRODUKTHIGHLIGHTS DES BRU MAKER ONE"
+      "default": "DIE 5 PRODUKTHIGHLIGHTS DES BRU MAKER ONE"
     },
     {
       "type": "checkbox",
@@ -250,6 +274,88 @@
         }
       ],
       "default": "middle"
+    },
+    {
+      "type": "header",
+      "content": "Text settings"
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size",
+      "label": "Subheading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 23
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size_mobile",
+      "label": "Subheading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 19
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 23
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 19
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "label": "Content font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "content_font_size_mobile",
+      "label": "Content font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#000000"
     },
     {
       "type": "header",

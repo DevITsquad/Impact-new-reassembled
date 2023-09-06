@@ -32,6 +32,33 @@
       flex-direction:column;
     }
   }
+  
+  #shopify-section-{{ section.id }} .subheading-text__custom{
+    font-size:{{section.settings.subheading_font_size}}px;
+    color:{{section.settings.subheading_color}};
+  }
+  #shopify-section-{{ section.id }} .heading-text__custom{
+  font-size:{{section.settings.heading_font_size}}px;
+  color:{{section.settings.heading_color}};
+  }
+
+  #shopify-section-{{ section.id }} .content-text__custom{
+    font-size:{{section.settings.content_font_size}}px;
+    color:{{section.settings.content_color}};
+  }
+
+  @media screen and (max-width:701px){
+     #shopify-section-{{ section.id }} .subheading-text__custom{
+      font-size:{{section.settings.subheading_font_size_mobile}}px;
+    }
+    #shopify-section-{{ section.id }} .heading-text__custom{
+      font-size:{{section.settings.heading_font_size_mobile}}px;
+    }
+
+    #shopify-section-{{ section.id }} .content-text__custom{
+      font-size:{{section.settings.content_font_size_mobile}}px;
+    }
+  }
 </style>
 
 <div
@@ -104,26 +131,26 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'subheading' -%}
-                {%- if block.settings.text != blank -%}
-                  <p class="bold" {{ block.shopify_attributes }}>{{ block.settings.text | escape }}</p>
+                {%- if block.settings.subheading != blank -%}
+                  <p class="bold subheading-text__custom" {{ block.shopify_attributes }}>{{ block.settings.subheading | escape }}</p>
                 {%- endif -%}
 
               {%- when 'heading' -%}
-                {%- if block.settings.text != blank -%}
+                {%- if block.settings.heading != blank -%}
                   <p
-                    class="{{ block.settings.heading_tag }}"
+                    class="heading-text__custom {{ block.settings.heading_tag }}"
                     {% if settings.heading_apparition != 'none' %}
                       reveal-on-scroll="true"
                     {% endif %}
                     {{ block.shopify_attributes }}
                   >
-                    {%- render 'styled-text', content: block.settings.text, apparition_effect: true -%}
+                    {%- render 'styled-text', content: block.settings.heading, apparition_effect: true -%}
                   </p>
                 {%- endif -%}
 
               {%- when 'richtext' -%}
                 {%- if block.settings.content != blank -%}
-                  <div {{ block.shopify_attributes }}>
+                  <div class="content-text__custom" {{ block.shopify_attributes }}>
                     {{- block.settings.content -}}
                   </div>
                 {%- endif -%}
@@ -185,6 +212,84 @@
       "label": "Enable parallax effect",
       "info": "Parallax crops images.",
       "default": false
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size",
+      "label": "Subheading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 23
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size_mobile",
+      "label": "Subheading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 19
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 21
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#A9A9C3"
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "label": "Content font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "content_font_size_mobile",
+      "label": "Content font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#000000"
     },
     {
       "type": "select",
@@ -360,9 +465,9 @@
       "settings": [
         {
           "type": "text",
-          "id": "text",
-          "label": "Text",
-          "default": "Subheading"
+          "id": "subheading",
+          "label": "Subheading",
+          "default": "Unsere Garantie für deine Zufriedenheit"
         }
       ]
     },
@@ -372,8 +477,8 @@
       "settings": [
         {
           "type": "text",
-          "id": "text",
-          "label": "Text",
+          "id": "heading",
+          "label": "Heading",
           "default": "Heading"
         },
         {
@@ -508,25 +613,7 @@
   ],
   "presets": [
     {
-      "name": "Image with text overlay MOD",
-      "blocks": [
-        {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        {
-          "type": "richtext"
-        }
-      ]
+      "name": "Image with text overlay MOD"
     }
   ]
 }

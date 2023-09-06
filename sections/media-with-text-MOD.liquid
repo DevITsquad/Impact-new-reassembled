@@ -1,9 +1,9 @@
 {%- render 'section-spacing-collapsing' -%}
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-CSS
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  CSS
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <style>
@@ -34,27 +34,60 @@ CSS
   {%- endfor -%}
 
 
-  #shopify-section-{{ section.id }} .section{
-    padding-bottom:1.5rem;   
-      }
-      @media screen and (max-width:699px){
-        #shopify-section-{{ section.id }} .section{
-       padding-bottom:1.25rem;   
+  {% if section.settings.is_small_bottom_padding %}
+    #shopify-section-{{ section.id }} .section{
+      padding-bottom:1.5rem;
         }
-     }
+        @media screen and (max-width:701px){
+          #shopify-section-{{ section.id }} .section{
+         padding-bottom:1.25rem;
+          }
+       }
+  {% endif %}
+
+   #shopify-section-{{ section.id }} .subheading-text__custom{
+    font-size:{{section.settings.subheading_font_size}}px;
+    color:{{section.settings.subheading_color}};
+  }
+  #shopify-section-{{ section.id }} .heading-text__custom{
+  font-size:{{section.settings.heading_font_size}}px;
+  color:{{section.settings.heading_color}};
+  margin-top:5px;
+  }
+
+  #shopify-section-{{ section.id }} .content-text__custom{
+    font-size:{{section.settings.content_font_size}}px;
+    color:{{section.settings.content_color}};
+  }
+
+  @media screen and (max-width:701px){
+     #shopify-section-{{ section.id }} .subheading-text__custom{
+      font-size:{{section.settings.subheading_font_size_mobile}}px;
+    }
+    #shopify-section-{{ section.id }} .heading-text__custom{
+      font-size:{{section.settings.heading_font_size_mobile}}px;
+    }
+
+    #shopify-section-{{ section.id }} .content-text__custom{
+      font-size:{{section.settings.content_font_size_mobile}}px;
+    }
+  }
 </style>
 
 {%- comment -%}
-------------------------------------------------------------------------------------------------------------------------
-LIQUID
-------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------------------
+  LIQUID
+  ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
 
 <div {% render 'section-properties' %}>
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
       <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
-        <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
+        <div
+          class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}"
+          reveal-on-scroll="true"
+        >
           {%- if block.type == 'image' -%}
             {%- if block.settings.image != blank -%}
               {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
@@ -62,7 +95,14 @@ LIQUID
 
               {%- capture sizes -%}(max-width: 999px) 100vw, min({{ maximum_image_width | ceil }}px, {{ block.settings.media_width }}vw){% endcapture %}
 
-              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
+              {{-
+                block.settings.image
+                | image_url: width: block.settings.image.width
+                | image_tag:
+                  loading: 'lazy',
+                  sizes: sizes,
+                  widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600'
+              -}}
             {%- else -%}
               {{- 'image' | placeholder_svg_tag: 'aspect-short placeholder' -}}
             {%- endif -%}
@@ -78,28 +118,55 @@ LIQUID
             {%- endcapture -%}
 
             {%- if block.settings.video -%}
-              <video-media {% if block.settings.autoplay %}autoplay{% else %}show-play-button{% endif %}>
+              <video-media
+                {% if block.settings.autoplay %}
+                  autoplay
+                {% else %}
+                  show-play-button
+                {% endif %}
+              >
                 {%- unless block.settings.autoplay -%}
                   {{- poster -}}
                 {%- endunless -%}
 
                 {%- if block.settings.autoplay -%}
-                  {{- block.settings.video | video_tag: playslinline: true, muted: true, loop: true, preload: 'metadata' -}}
+                  {{-
+                    block.settings.video
+                    | video_tag: playslinline: true, muted: true, loop: true, preload: 'metadata'
+                  -}}
                 {%- else -%}
-                  {{- block.settings.video | video_tag: playslinline: true, controls: true, muted: false, loop: false, preload: 'metadata' -}}
+                  {{-
+                    block.settings.video
+                    | video_tag: playslinline: true, controls: true, muted: false, loop: false, preload: 'metadata'
+                  -}}
                 {%- endif -%}
               </video-media>
             {%- else -%}
-              <video-media host="{{ block.settings.external_video_url.type }}" {% if block.settings.autoplay %}autoplay{% else %}show-play-button{% endif %}>
+              <video-media
+                host="{{ block.settings.external_video_url.type }}"
+                {% if block.settings.autoplay %}
+                  autoplay
+                {% else %}
+                  show-play-button
+                {% endif %}
+              >
                 {%- unless block.settings.autoplay -%}
                   {{- poster -}}
                 {%- endunless -%}
 
                 <template>
                   {%- if block.settings.external_video_url.type == 'youtube' -%}
-                    <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute={% if block.settings.autoplay %}1{% else %}0{% endif %}&loop=1&playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+                    <iframe
+                      src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute={% if block.settings.autoplay %}1{% else %}0{% endif %}&loop=1&playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen="allowfullscreen"
+                    ></iframe>
                   {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
-                    <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autoplay=1&autopause=1&background=1&loop=1&muted={% if block.settings.autoplay %}1{% else %}0{% endif %}&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+                    <iframe
+                      src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autoplay=1&autopause=1&background=1&loop=1&muted={% if block.settings.autoplay %}1{% else %}0{% endif %}&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}"
+                      allow="autoplay; encrypted-media;"
+                      allowfullscreen="allowfullscreen"
+                    ></iframe>
                   {%- endif -%}
                 </template>
               </video-media>
@@ -108,30 +175,51 @@ LIQUID
         </div>
 
         {%- capture content_class -%}media-with-text__content {% unless section.settings.spacing == 'none' %}rounded{% endunless %}{%- endcapture -%}
-        <div {% render 'surface', class: content_class, background: block.settings.background, background_gradient: block.settings.background_gradient, text_color: block.settings.text_color %}>
+        <div
+          {% render 'surface',
+            class: content_class,
+            background: block.settings.background,
+            background_gradient: block.settings.background_gradient,
+            text_color: block.settings.text_color
+          %}
+        >
           <div class="prose break-all {{ block.settings.text_position }}" reveal-on-scroll="true">
             {%- if block.settings.custom_icon != blank -%}
               {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
               {%- capture widths -%}{{ block.settings.icon_width }}, {{ block.settings.icon_width | times: 2 | at_most: block.settings.custom_icon.width }}{%- endcapture -%}
-              {{- block.settings.custom_icon | image_url: width: block.settings.custom_icon.width | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'media-with-text__icon' -}}
+              {{-
+                block.settings.custom_icon
+                | image_url: width: block.settings.custom_icon.width
+                | image_tag: loading: 'lazy', sizes: sizes, widths: widths, class: 'media-with-text__icon'
+              -}}
             {%- elsif block.settings.icon != 'none' -%}
-              {%- render 'icon' with block.settings.icon, width: block.settings.icon_width, height: block.settings.icon_width, class: 'media-with-text__icon' -%}
+              {%- render 'icon' with block.settings.icon,
+                width: block.settings.icon_width,
+                height: block.settings.icon_width,
+                class: 'media-with-text__icon'
+              -%}
             {%- endif -%}
 
             {%- if block.settings.subheading != blank -%}
-              <p class="bold">{{ block.settings.subheading | escape }}</p>
+              <p class="bold subheading-text__custom">{{ block.settings.subheading | escape }}</p>
             {%- endif -%}
 
             {%- if block.settings.title != blank -%}
-              <p class="h2">
+              <p class="h2 heading-text__custom">
                 {%- render 'styled-text', content: block.settings.title, gradient: block.settings.text_gradient -%}
               </p>
             {%- endif -%}
-
-            {{- block.settings.content -}}
-
+            <div class="content-text__custom">
+              {{- block.settings.content -}}
+            </div>
             {%- if block.settings.link_text != blank -%}
-              {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'xl', background: block.settings.button_background, text_color: block.settings.button_text_color -%}
+              {%- render 'button',
+                href: block.settings.link_url,
+                content: block.settings.link_text,
+                size: 'xl',
+                background: block.settings.button_background,
+                text_color: block.settings.button_text_color
+              -%}
             {%- endif -%}
           </div>
         </div>
@@ -139,7 +227,6 @@ LIQUID
     {%- endfor -%}
   </media-with-text>
 </div>
-
 {% schema %}
 {
   "name": "Media with text MOD",
@@ -156,6 +243,90 @@ LIQUID
       "label": "Full width",
       "info": "Only has effect when spacing is set to none.",
       "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "is_small_bottom_padding",
+      "label": "is small bottom padding?",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size",
+      "label": "Subheading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 23
+    },
+    {
+      "type": "range",
+      "id": "subheading_font_size_mobile",
+      "label": "Subheading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 19
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 21
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "label": "Heading font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#A9A9C3"
+    },
+    {
+      "type": "range",
+      "id": "content_font_size",
+      "label": "Content font size",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "content_font_size_mobile",
+      "label": "Content font size mobile",
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 17
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "label": "Content color",
+      "default": "#000000"
     },
     {
       "type": "select",
