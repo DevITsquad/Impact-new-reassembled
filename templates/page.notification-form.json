@@ -20,7 +20,7 @@
           "type": "heading",
           "settings": {
             "text": "Lassen Sie sich benachrichtigen, sobald der BRU Maker One in Ihrem Land erhältlich ist!",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
@@ -77,6 +77,16 @@
       ],
       "settings": {
         "full_width": true,
+        "is_small_bottom_padding": false,
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
         "spacing": "small"
       }
     },
