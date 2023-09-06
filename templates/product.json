@@ -6,7 +6,10 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "heading_font_size": 24,
+            "heading_font_size_mobile": 20,
+            "heading_color": "#000000"
           }
         },
         "26b3dd24-df2d-49d7-8fd9-91fc46a69404": {
@@ -165,11 +168,13 @@
         "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-subheading-1": {
           "type": "subheading",
           "settings": {
+            "subheading": "Unsere Garantie für deine Zufriedenheit"
           }
         },
         "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-heading-1": {
           "type": "heading",
           "settings": {
+            "heading": "Heading",
             "heading_tag": "h1"
           }
         },
@@ -196,6 +201,15 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
         "image_size": "auto",
         "image": "shopify:\/\/shop_images\/tg_image_2480510092.png",
         "mobile_text_position": "place-self-center text-center",
@@ -314,6 +328,16 @@
       ],
       "settings": {
         "full_width": false,
+        "is_small_bottom_padding": true,
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
         "spacing": "small"
       }
     },
@@ -321,9 +345,19 @@
       "type": "before-after-image-MOD",
       "settings": {
         "full_width": true,
+        "is_small_bottom_padding": true,
         "subheading": "Egal ob Tasse oder Kanne",
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
         "title": "Du bestimmst, wie viel du Brühen willst",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
         "content": "<p>Während die Brühkammer 350 ml fasst, ermöglicht die Mehrfach-Brüh-Funktion <strong>bis zu 4 aufeinanderfolgende Brühvorgänge.<\/strong><\/p><p>So kannst du <strong>bis zu 1,4 Liter<\/strong> Tee in einem Durchgang automatisch zubereiten – genug, um mehrere Tee-Genießer zu erfreuen!<\/p>",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
         "before_image": "shopify:\/\/shop_images\/before_after_7_a96f0131-f983-4cef-a9b2-3d76c25b52b4.png",
         "after_image": "shopify:\/\/shop_images\/before_after_8_d7925a1e-debe-46c6-a3a3-996e38f408c4.png",
         "expand_image": true,
@@ -395,6 +429,16 @@
       ],
       "settings": {
         "full_width": false,
+        "is_small_bottom_padding": false,
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
         "spacing": "small"
       }
     },
@@ -635,6 +679,9 @@
       ],
       "settings": {
         "full_width": false,
+        "inner_content_font_size": 19,
+        "inner_content_font_size_mobile": 16,
+        "inner_content_color": "#000000",
         "subheading": "",
         "title": "Wir beantworten deine Fragen - FAQ",
         "content": "<h3><strong>Produkt und Anwendung<\/strong><\/h3>",
@@ -724,6 +771,9 @@
       ],
       "settings": {
         "full_width": false,
+        "inner_content_font_size": 19,
+        "inner_content_font_size_mobile": 16,
+        "inner_content_color": "#000000",
         "subheading": "",
         "title": "",
         "content": "<h3><strong>Bestellung und Versand<\/strong><\/h3>",
@@ -772,6 +822,16 @@
       ],
       "settings": {
         "full_width": false,
+        "is_small_bottom_padding": false,
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
         "spacing": "small"
       }
     },
@@ -782,6 +842,15 @@
         "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
         "show_icon": false,
         "title": "Newsletter",
+        "heading_font_size": 26,
+        "heading_font_size_mobile": 26,
+        "heading_color": "#000000",
+        "content_1": "Profitiere von tollen Angeboten",
+        "content_2": "Erhalte Tipps und Tricks rund um die Teezubereitung",
+        "content_3": "Bekomme exklusive Vorabinfos zu neuen Produkten",
+        "content_font_size": 16,
+        "content_font_size_mobile": 15,
+        "content_color": "#000000",
         "button_text": "Jetzt anmelden",
         "subtext": "Du kannst den Newsletter jederzeit abmelden",
         "background": "",
