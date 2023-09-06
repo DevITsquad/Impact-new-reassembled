@@ -1,99 +1,129 @@
 {%- render 'section-spacing-collapsing' -%}
 
 <style>
-  #shopify-section-{{ section.id }} {
-    --product-grid: auto / minmax(0, 1fr);
-    --product-gallery-media-list-grid: auto / auto-flow {% if section.settings.mobile_carousel_control == 'free_scroll' %}{% if section.settings.mobile_media_size == 'expanded' %}84vw{% else %}73vw{% endif %}{% else %}100%{% endif %};
-    --product-gallery-media-list-gap: {% if section.settings.mobile_media_size == 'expanded' %}var(--spacing-0-5){% else %}var(--grid-gutter){% endif %};
-  }
-
-  @media screen and (max-width: 999px) {
-    #shopify-section-{{ section.id }} {
-      --section-spacing-block-start: {% if section.settings.mobile_media_size == 'expanded' %}0px{% else %}var(--container-gutter){% endif %};
+    #shopify-section-{{ section.id }} .product-info__text,
+    #shopify-section-{{ section.id }} .product-info__price ,
+    #shopify-section-{{ section.id }} .product-info__buy-buttons {
+      margin-top:10px;
+      margin-bottom:10px;
     }
-  }
-
-  @media screen and (min-width: 1000px) {
-    #shopify-section-{{ section.id }} {
-      {%- assign media_ratio = section.settings.desktop_media_width | divided_by: 50.0 -%}
-      --product-grid: auto / minmax(0, {{ media_ratio }}fr) minmax(0, {{ 2.0 | minus: media_ratio }}fr);
-      --product-gallery-media-list-grid: {% if section.settings.desktop_media_layout contains 'grid' %}auto-flow dense / repeat(2, minmax(0, 1fr)){% else %}auto / auto-flow 100%{% endif %};
-      --product-gallery-media-list-gap: calc(var(--grid-gutter) / 2);
+    #shopify-section-{{ section.id }} .accordion__toggle {
+      padding:10px 0;
     }
 
-    {%- if section.settings.desktop_media_layout == 'grid_highlight' -%}
-      #shopify-section-{{ section.id }} .product-gallery__media-list > :not([hidden]) {
-        grid-column: span 2;
+{% for block in section.blocks %}
+  {% if block.type == "title" %}
+    #shopify-section-{{ section.id }} .product-info__title {
+      font-weight:600;
+      font-size:{{block.settings.heading_font_size}}px;
+      color:{{block.settings.heading_color}};
+    }
+    @media screen and (max-width: 701px) {
+      #shopify-section-{{ section.id }} .product-info__title {
+        {{block.settings.heading_font_size_mobile}}
+      }
+    }
+  {% endif %}
+{% endfor %}
+
+    
+   
+   
+    #shopify-section-{{ section.id }} {
+      --product-grid: auto / minmax(0, 1fr);
+      --product-gallery-media-list-grid: auto / auto-flow {% if section.settings.mobile_carousel_control == 'free_scroll' %}{% if section.settings.mobile_media_size == 'expanded' %}84vw{% else %}73vw{% endif %}{% else %}100%{% endif %};
+      --product-gallery-media-list-gap: {% if section.settings.mobile_media_size == 'expanded' %}var(--spacing-0-5){% else %}var(--grid-gutter){% endif %};
+    }
+
+    @media screen and (max-width: 999px) {
+      #shopify-section-{{ section.id }} {
+        --section-spacing-block-start: {% if section.settings.mobile_media_size == 'expanded' %}0px{% else %}var(--container-gutter){% endif %};
+      }
+    }
+
+    @media screen and (min-width: 1000px) {
+      #shopify-section-{{ section.id }} {
+        {%- assign media_ratio = section.settings.desktop_media_width | divided_by: 50.0 -%}
+        --product-grid: auto / minmax(0, {{ media_ratio }}fr) minmax(0, {{ 2.0 | minus: media_ratio }}fr);
+        --product-gallery-media-list-grid: {% if section.settings.desktop_media_layout contains 'grid' %}auto-flow dense / repeat(2, minmax(0, 1fr)){% else %}auto / auto-flow 100%{% endif %};
+        --product-gallery-media-list-gap: calc(var(--grid-gutter) / 2);
       }
 
-      #shopify-section-{{ section.id }} .product-gallery__media-list > :not([hidden]) ~ *:not(.product-gallery__media--expand) {
-        grid-column: span 1;
-      }
-    {%- endif -%}
-  }
+      {%- if section.settings.desktop_media_layout == 'grid_highlight' -%}
+        #shopify-section-{{ section.id }} .product-gallery__media-list > :not([hidden]) {
+          grid-column: span 2;
+        }
 
-  @media screen and (min-width: 1400px) {
-    #shopify-section-{{ section.id }} {
-      --product-gallery-media-list-gap: var(--grid-gutter);
+        #shopify-section-{{ section.id }} .product-gallery__media-list > :not([hidden]) ~ *:not(.product-gallery__media--expand) {
+          grid-column: span 1;
+        }
+      {%- endif -%}
     }
-  }
 
-  .product-info ul.list-payment {
-    margin-left: var(--spacing-10);
-    width: calc(45% - var(--spacing-10) * 2);
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  @media screen and (max-width: 999px) {
-  
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} {
+        --product-gallery-media-list-gap: var(--grid-gutter);
+      }
+    }
+
+
+
     .product-info ul.list-payment {
-      margin: 10px auto;
-      width: 100%;
+      margin-left: var(--spacing-10);
+      width: calc(45% - var(--spacing-10) * 2);
+      display: flex;
+      justify-content: center;
+      gap: 10px;
     }
-  }
-  .product .buy-buttons button,.product .gw-button-widget-container button{
-    max-width:300px;
-  }
-  @media screen and (max-width:767px){
+    @media screen and (max-width: 999px) {
+
+      .product-info ul.list-payment {
+        margin: 10px auto;
+        width: 100%;
+      }
+    }
     .product .buy-buttons button,.product .gw-button-widget-container button{
-      max-width:100%;
+      max-width:300px;
     }
+    @media screen and (max-width:767px){
+      .product .buy-buttons button,.product .gw-button-widget-container button{
+        max-width:100%;
+      }
+    }
+    .product-info__shipping-icons {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+      max-width: 600px;
   }
-  .product-info__shipping-icons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
-    max-width: 600px;
-}
-.shipping-icon__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 5px;
-    border: 1px solid #e4e1e1;
-    border-radius: 20px;
-    color: black;
-    height: 70px;
-    font-size: 13px;
-}
-.shipping__icon-text {
-    text-align: center;
-}
-@media screen and (min-width: 750px) and (max-width: 910px){
-    .shipping-icon__item {
-        padding: 7px 5px;
-    } 
-}
-@media screen and (max-width: 749px) {
-    .shipping-icon__item {
-        padding: 5px 2px;
-    }
-    .product-info__shipping-icons{
-        column-gap: 10px;
-    }
-}
+  .shipping-icon__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 5px;
+      border: 1px solid #e4e1e1;
+      border-radius: 20px;
+      color: black;
+      height: 70px;
+      font-size: 13px;
+  }
+  .shipping__icon-text {
+      text-align: center;
+  }
+  @media screen and (min-width: 750px) and (max-width: 910px){
+      .shipping-icon__item {
+          padding: 7px 5px;
+      }
+  }
+  @media screen and (max-width: 749px) {
+      .shipping-icon__item {
+          padding: 5px 2px;
+      }
+      .product-info__shipping-icons{
+          column-gap: 10px;
+      }
+  }
 </style>
 
 <div {% render 'section-properties', tight: true %}>
@@ -114,8 +144,22 @@
   <product-quick-add form="{{ product_form_id }}" class="product-quick-add">
     {%- assign button_label = 'product.general.add_to_cart_button' | t -%}
 
-    <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button class="sm:hidden">
-      {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
+    <buy-buttons
+      template="{{ product.template_suffix }}"
+      form="{{ product_form_id }}"
+      force-secondary-button
+      class="sm:hidden"
+    >
+      {%- render 'button',
+        type: 'submit',
+        content: button_label,
+        form: product_form_id,
+        background: buy_buttons_block.settings.atc_button_background,
+        text_color: buy_buttons_block.settings.atc_button_text_color,
+        secondary: true,
+        stretch: true,
+        size: 'lg'
+      -%}
     </buy-buttons>
 
     {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
@@ -123,7 +167,11 @@
     <div class="product-quick-add__variant {% if image == blank %}no-image{% endif %} hidden sm:grid">
       {%- if image != blank -%}
         <variant-media widths="80,160" form="{{ product_form_id }}">
-          {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'rounded-xs' -}}
+          {{-
+            image
+            | image_url: width: image.width
+            | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'rounded-xs'
+          -}}
         </variant-media>
       {%- endif -%}
 
@@ -135,21 +183,32 @@
         {%- endif -%}
 
         <a href="{{ product.url }}" class="bold truncate-text">{{ product.title }}</a>
-        {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+        {%- render 'price-list',
+          product: product,
+          variant: product.selected_or_first_available_variant,
+          form_id: product_form_id
+        -%}
       </div>
 
       <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
-        {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true -%}
+        {%- render 'button',
+          type: 'submit',
+          content: button_label,
+          form: product_form_id,
+          background: buy_buttons_block.settings.atc_button_background,
+          text_color: buy_buttons_block.settings.atc_button_text_color,
+          secondary: true
+        -%}
       </buy-buttons>
     </div>
   </product-quick-add>
 {%- endif -%}
 
 {%- comment -%}
-IMPLEMENTATION NOTE: Shopify does not currently allows to render a given section within the context of a given product. However,
-when rendering the quick buy popovers, we want to be able to re-use the merchant's choices (such as the selector type). This
-is however only possible by rendering the whole product page, and extracting the relevant part. Here, we therefore render the
-quick buy information in a template, that will be extracted in JS, but ensure it is not visible in the main product page
+  IMPLEMENTATION NOTE: Shopify does not currently allows to render a given section within the context of a given product. However,
+  when rendering the quick buy popovers, we want to be able to re-use the merchant's choices (such as the selector type). This
+  is however only possible by rendering the whole product page, and extracting the relevant part. Here, we therefore render the
+  quick buy information in a template, that will be extracted in JS, but ensure it is not visible in the main product page
 {%- endcomment -%}
 <template id="quick-buy-content">
   {%- capture product_form_id -%}quick-buy-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
@@ -159,13 +218,21 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
     {%- if image != blank -%}
       <variant-media widths="80,160" form="{{ product_form_id }}">
-        {{- image | image_url: width: image.width | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media rounded-xs' -}}
+        {{-
+          image
+          | image_url: width: image.width
+          | image_tag: loading: 'lazy', sizes: '80px', widths: '80,160', class: 'quick-buy-drawer__media rounded-xs'
+        -}}
       </variant-media>
     {%- endif -%}
 
     <div class="v-stack gap-0.5">
       <a href="{{ product.url }}" class="bold justify-self-start">{{ product.title }}</a>
-      {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+      {%- render 'price-list',
+        product: product,
+        variant: product.selected_or_first_available_variant,
+        form_id: product_form_id
+      -%}
     </div>
   </div>
 
@@ -178,10 +245,23 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           {%- render block -%}
 
         {%- when 'variant_picker' -%}
-          {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: false, hide_sold_out_variants: block.settings.hide_sold_out_variants, hide_size_chart: true, force_dropdown_as_block: true, block: block -%}
+          {%- render 'variant-picker',
+            product: product,
+            form_id: product_form_id,
+            update_url: false,
+            hide_sold_out_variants: block.settings.hide_sold_out_variants,
+            hide_size_chart: true,
+            force_dropdown_as_block: true,
+            block: block
+          -%}
 
         {%- when 'buy_buttons' -%}
-          {%- render 'buy-buttons-MOD', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, button_size: 'lg' -%}
+          {%- render 'buy-buttons-MOD',
+            product: product,
+            form_id: product_form_id,
+            show_payment_button: block.settings.show_payment_button,
+            button_size: 'lg'
+          -%}
       {%- endcase -%}
     {%- endfor -%}
   </div>
@@ -237,6 +317,32 @@ quick buy information in a template, that will be extracted in JS, but ensure it
             }
           ],
           "default": "h2"
+        },  
+        {
+          "type": "range",
+          "id": "heading_font_size",
+          "label": "Title font size",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "default": 24
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "label": "Title font size mobile",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "unit": "px",
+          "default": 20
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Title color",
+          "default": "#000000"
         }
       ]
     },
@@ -263,7 +369,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "step": 5,
           "unit": "px",
           "label": "margin bottom",
-          "default":20
+          "default": 20
         },
         {
           "type": "image_picker",
@@ -332,7 +438,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "type": "checkbox",
           "id": "show_taxes_notice",
           "label": "Show taxes notice",
-          "default": false
+          "default": true
         }
       ]
     },
@@ -654,7 +760,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "type": "color",
           "id": "text_color",
           "label": "Text color"
-        }, 
+        },
         {
           "type": "range",
           "id": "font_size_desc",
@@ -1303,7 +1409,7 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "default": "carousel_thumbnails_left"
     },
     {
-      "type":"select",
+      "type": "select",
       "id": "mobile_media_size",
       "label": "Mobile media size",
       "options": [
