@@ -86,7 +86,7 @@
         "heading_color": "#A9A9C3",
         "content_font_size": 22,
         "content_font_size_mobile": 17,
-        "content_color": "#000000",
+        "content_color": "#fff",
         "spacing": "small"
       }
     },
