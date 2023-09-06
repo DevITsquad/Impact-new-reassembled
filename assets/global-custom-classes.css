@@ -16,3 +16,32 @@ strong {
         border-radius: 20px;
     }
 }
+.globo-form-app .panel{
+    position: static!important;
+  }
+  .globo-form-app .globo-form-control.layout-2-column {
+      width: 100%!important;
+  }
+  .globo-form-app .panel.movingOutFoward{
+    position: static!important;
+  }
+  .globo-form-app .panel.movingIn{
+    opacity: 1;
+    position: absolute!important;
+  }
+  .globo-form-app .globo-form-control{
+    margin-bottom: 0!important;
+  }
+  .globo-form-app .panel{
+    padding-top: 5px!important;
+  }
+  .classic_rounded-label.globo-label {
+      height: 10px;
+  }
+  .globo-form-app .panel.movingIn{
+    gap:5px!important;
+  }
+  .globo-form-app .globo-form-control label,
+  .globo-form-id-104572 .globo-form-app .footer button{
+    margin-bottom: 15px!important;
+  }
