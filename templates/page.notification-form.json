@@ -77,7 +77,7 @@
       ],
       "settings": {
         "full_width": true,
-        "is_small_bottom_padding": false,
+        "is_small_bottom_padding": true,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
         "subheading_color": "#000000",
