@@ -165,13 +165,11 @@
         "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-subheading-1": {
           "type": "subheading",
           "settings": {
-            "text": "Unsere Garantie für deine Zufriedenheit"
           }
         },
         "template--16151280976033__97baa4ad-49f3-4529-8ae3-a0b93bc3832b-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "",
             "heading_tag": "h1"
           }
         },
@@ -784,7 +782,6 @@
         "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
         "show_icon": false,
         "title": "Newsletter",
-        "content": "<p>Profitiere von tollen Angeboten<br\/><br\/>Erhalte Tipps und Tricks rund um die Teezubereitung<br\/><br\/>Bekomme exklusive Vorabinfos zu neuen Produkten<\/p>",
         "button_text": "Jetzt anmelden",
         "subtext": "Du kannst den Newsletter jederzeit abmelden",
         "background": "",
