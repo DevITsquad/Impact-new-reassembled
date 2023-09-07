@@ -119,17 +119,17 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/BRU_use_any_type_of_tea_in_your_tea_machine.jpg",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_size": 100,
             "icon_size_mobile": 60,
-            "subheading": "",
-            "title": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "subheading": "Brüh, was du willst!",
+            "title": "",
+            "content": "<p>Bei uns entscheidest du, was gebrüht wird! Egal, ob loser Tee, Tee im Beutel oder ein frischer Zitronen-Ingwer Aufguss, einfach die Zutaten in den BRU Maker One geben, Knopf drücken und das war's. Noch nie war es so einfach, etwas Leckeres aufzubrühen.<\/p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#fff",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -317,7 +317,6 @@
       "block_order": [
         "template--16114935464097__763731d7-99d5-4185-8160-bd3223366b01-image-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -353,6 +352,7 @@
       "block_order": [
         "template--16114935464097__196a65a5-8efc-4acb-90b9-a55ccb39d884-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
