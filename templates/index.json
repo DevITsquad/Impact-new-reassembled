@@ -17,6 +17,7 @@
             "title": "",
             "heading_tag": "h0",
             "content": "<p>Die erste All-in-1 Lösung für authentischen Tee-Genuss – so wie Tee wirklich schmecken soll<\/p>",
+            "is_grey_back": false,
             "content_font_size": 22,
             "content_font_size_mobile": 18,
             "caption": "unverbindlich 30 Tage ausprobieren",
@@ -47,6 +48,7 @@
             "title": "Slide title",
             "heading_tag": "h0",
             "content": "<p>Die erste All-in-1 Lösung fürauthentischen Tee-Genuss – so wie Tee wirklich schmecken soll<\/p>",
+            "is_grey_back": true,
             "content_font_size": 18,
             "content_font_size_mobile": 16,
             "caption": "unverbindlich 30 Tage ausprobieren",
@@ -409,6 +411,7 @@
       ],
       "settings": {
         "full_width": false,
+        "mobile_margin": 0,
         "is_small_bottom_padding": false,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
@@ -662,6 +665,7 @@
       ],
       "settings": {
         "full_width": false,
+        "mobile_margin": 0,
         "is_small_bottom_padding": false,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
