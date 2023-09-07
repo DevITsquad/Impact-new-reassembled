@@ -163,7 +163,7 @@
             {%- capture content_class -%}{{ block.settings.mobile_text_position }} {{ block.settings.desktop_text_position }}{%- endcapture -%}
   
             <div {% render 'surface', class: content_class, text_color: block.settings.text_color %}>
-              <div class="prose grey-background">
+              <div class="prose {% if block.settings.is_grey_back %} grey-background{% endif %}"> 
                 {%- if block.settings.subheading != blank -%}
                   <p class="bold slideshow-text__heading" data-sequence="subheading">{{ block.settings.subheading | escape }}</p>
                 {%- endif -%}
@@ -302,7 +302,7 @@
 
 {% schema %}
 {
-  "name": "Slideshow-MOD",
+  "name": "Slideshow MOD",
   "class": "shopify-section--slideshow",
   "tag": "section",
   "disabled_on": {
@@ -615,6 +615,12 @@
           "default": "<p>Die erste All-in-1 Lösung fürauthentischen Tee-Genuss – so wie Tee wirklich schmecken soll</p>"
         },
         {
+          "type": "checkbox",
+          "id": "is_grey_back",
+          "label": "is grey background mobile?",
+          "default": true
+        },
+        {
           "type": "range",
           "id": "content_font_size",
           "label": "Content font size",
@@ -727,7 +733,7 @@
   ],
   "presets": [
     {
-      "name": "Slideshow-MOD",
+      "name": "Slideshow MOD",
       "blocks": [
         {
           "type": "image",
