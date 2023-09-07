@@ -259,39 +259,6 @@
         "text_color": ""
       }
     },
-    "2c839a04-1d94-4cc2-8a0a-d52d310c7c33": {
-      "type": "video",
-      "blocks": {
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-play-1": {
-          "type": "play",
-          "settings": {
-          }
-        },
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Video",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-play-1",
-        "template--16153171427489__2c839a04-1d94-4cc2-8a0a-d52d310c7c33-heading-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/Ice-T (1).mp4",
-        "external_video_url": "",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 20
-      }
-    },
     "e62b1cde-fe63-4fb9-af6a-964c55fa38f8": {
       "type": "rich-text",
       "blocks": {
@@ -454,7 +421,6 @@
     "main",
     "49498065-65fa-40e5-9b15-61fe42957939",
     "e9b12957-15d2-4122-8d6a-9a28a7e2dbca",
-    "2c839a04-1d94-4cc2-8a0a-d52d310c7c33",
     "e62b1cde-fe63-4fb9-af6a-964c55fa38f8",
     "43b6b132-df45-4a52-ad97-34813af0f1df",
     "2bbd24f1-d59f-46f3-aa5d-12dfad144778"
