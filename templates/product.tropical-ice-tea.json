@@ -7,7 +7,7 @@
           "type": "title",
           "settings": {
             "heading_tag": "h2",
-            "heading_font_size": 24,
+            "heading_font_size": 20,
             "heading_font_size_mobile": 20,
             "heading_color": "#000000"
           }
@@ -15,7 +15,7 @@
         "05c42a30-b57d-4354-bf79-47e09c648d71": {
           "type": "text",
           "settings": {
-            "text": "<p>Fruchtiger Tee - heiss oder kalt<\/p>",
+            "text": "<h2><strong>Fruchtiger Tee - heiss oder kalt<\/strong><\/h2>",
             "text_color": "#a9a9c3",
             "font_size_desc": 18,
             "font_size_mobile": 16
