@@ -6,13 +6,16 @@
         "f98b2504-b509-4f5d-8a3d-e03f3f4b86ea": {
           "type": "title",
           "settings": {
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "heading_font_size": 20,
+            "heading_font_size_mobile": 20,
+            "heading_color": "#000000"
           }
         },
         "05c42a30-b57d-4354-bf79-47e09c648d71": {
           "type": "text",
           "settings": {
-            "text": "<p>Natürlich süss und lecker<\/p>",
+            "text": "<h2><strong>Natürlich süss und lecker<\/strong><\/h2>",
             "text_color": "#a9a9c3",
             "font_size_desc": 18,
             "font_size_mobile": 16
@@ -337,7 +340,15 @@
         "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
         "show_icon": false,
         "title": "Der BRU Newsletter",
-        "content": "<p>Profitiere von tollen Angeboten.<br\/><br\/>Erhalte Tipps und Tricks rund um die Teezubereitung.<br\/><br\/>Bekomme exklusive Vorabinfos zu neuen Produkten. <\/p>",
+        "heading_font_size": 26,
+        "heading_font_size_mobile": 26,
+        "heading_color": "#000000",
+        "content_1": "Profitiere von tollen Angeboten",
+        "content_2": "Erhalte Tipps und Tricks rund um die Teezubereitung",
+        "content_3": "Bekomme exklusive Vorabinfos zu neuen Produkten",
+        "content_font_size": 16,
+        "content_font_size_mobile": 15,
+        "content_color": "#000000",
         "button_text": "Jetzt anmelden",
         "subtext": "Mit deiner Anmeldung gibst du dein Einverständnis E-Mails von uns zu erhalten. Du kannst den Newsletter jederzeit abmelden.",
         "background": "",
