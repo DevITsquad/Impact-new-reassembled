@@ -15,7 +15,7 @@
             "subheading_font_size_mobile": 18,
             "title": "",
             "heading_tag": "h0",
-            "content": "<p>Die erste All-in-1 Lösung fürauthentischen Tee-Genuss – so wie Tee wirklich schmecken soll<\/p>",
+            "content": "<p>Die erste All-in-1 Lösung für authentischen Tee-Genuss – so wie Tee wirklich schmecken soll<\/p>",
             "content_font_size": 22,
             "content_font_size_mobile": 18,
             "caption": "unverbindlich 30 Tage ausprobieren",
@@ -198,12 +198,12 @@
         "full_width": true,
         "allow_transparent_header": false,
         "autoplay": false,
-        "video_size": "md",
+        "video_size": "auto",
         "video": "shopify:\/\/files\/videos\/MVI_2516_1.mp4",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "1a57ac68-3d26-4fca-8e64-65cb13457853": {
