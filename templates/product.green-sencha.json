@@ -153,7 +153,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "90°C",
+            "title": "75°C",
             "content": "<p>Temperatur<\/p>"
           }
         },
@@ -181,7 +181,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "5 min",
+            "title": "2 min",
             "content": "<p>Brühzeit<\/p>"
           }
         },
@@ -195,7 +195,7 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "1 ½ Teelöffel (6g)",
+            "title": "1 Teelöffel (3g)",
             "content": "<p>Teemenge<\/p>"
           }
         }
@@ -282,7 +282,7 @@
         "template--16153171427489__e62b1cde-fe63-4fb9-af6a-964c55fa38f8-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Geniesse höchsten Genuss mit unserem <strong>Grünen Sencha Tee aus Japan<\/strong><br\/>– eine edle Kreation, die die feine Kunst japanischer Teekultur verkörpert und<br\/>als äusserst geschätzter Klassiker gilt<\/p>"
+            "content": "<p>Geniesse höchsten Genuss mit unserem <strong>Grünen Sencha Tee aus Japan<\/strong><br\/>– eine edle Kreation, die die feine Kunst japanischer Teekultur verkörpert und<br\/>als äusserst geschätzter Klassiker gilt.<\/p>"
           }
         }
       },
