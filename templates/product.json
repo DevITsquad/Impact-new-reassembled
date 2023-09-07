@@ -308,7 +308,8 @@
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "icon_width": 48,
+            "icon_size": 100,
+            "icon_size_mobile": 60,
             "subheading": "Warum eine Teemaschine?",
             "title": "BRU Maker One – Ein Muss für alle  Teetrinker",
             "content": "<p>Der BRU Maker ist so <strong>einfach wie eine Kapselmaschine zu bedienen, <\/strong>kann jedoch umweltfreundlich mit losem und Beuteltee verwendet werden.<br\/><\/p><p>Ob loser Tee, frische Kräuter, Beeren oder Teebeuteln – Die Zubereitung einer wahrhaft genussvollen und authentischen Tasse Tee ist jetzt in <strong>jedem Haushalt oder Büro möglich<\/strong>.<\/p>",
@@ -386,7 +387,8 @@
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "icon_width": 48,
+            "icon_size": 100,
+            "icon_size_mobile": 60,
             "subheading": "Kinderleichte Bedienung",
             "title": "Damit dein Tee einfach immer gelingt",
             "content": "<p>Die intuitive Benutzeroberfläche ermöglicht es dir, Tee ganz einfach <strong>auf Knopfdruck<\/strong> zuzubereiten. <\/p><p>Du kannst die <strong>Wassertemperatur, die Wassermenge und die Brühzeit <\/strong>präzise einstellen und steuern. Auf diese Weise wird dein Tee immer genau so schmecken, wie du es magst.<\/p>",
@@ -408,7 +410,8 @@
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "icon_width": 48,
+            "icon_size": 100,
+            "icon_size_mobile": 60,
             "subheading": "Steuerung per App",
             "title": "Die smarte Art der Teezubereitung",
             "content": "<p><br\/>Du liegst morgens im Bett, dein Wecker klingelt und du willst schon einmal deinen Tee aufbrühen? Starte den BRU Maker One <strong>einfach von deinem Smartphone aus<\/strong> oder stelle einen Timer ein.<\/p><p>Mit unserer App kannst du den BRU Maker One noch mehr personalisieren und zusätzliche Funktionen freischalten.<\/p><p><\/p><p><\/p><p><\/p>",
@@ -802,7 +805,8 @@
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "icon_width": 48,
+            "icon_size": 100,
+            "icon_size_mobile": 60,
             "subheading": "Gemacht von Teetrinkern für Teetrinker",
             "title": "",
             "content": "<p>Hi, wir sind Filip und Bogdan! Gemeinsam haben wir vor 3 Jahren BRU gegründet. Als junges StartUp verfolgen wir das Ziel, die Teezubereitung maximal zu vereinfachen. <\/p><p>Entstanden ist der BRU Maker One <strong>aus unserer Leidenschaft für wirklich leckeren Tee.<\/strong> Auf der unsere Suche nach der ultimativen Teemaschine fanden wir kein Produkt, dass wirklich gut funktioniere, weshalb wir uns dazu entschieden haben, die Sache selbst in die Hand zu nehmen. <\/p>",
@@ -950,6 +954,77 @@
         "heading_color": "",
         "heading_gradient": ""
       }
+    },
+    "a6a0d852-a2fd-4a35-b3e0-ef461681f35c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "bru-japan-sencha",
+          "bru-indian-assam",
+          "bru-fresh-peach",
+          "bru-tropical-ice-tea",
+          "bru-mug",
+          "bru-wasserfilter"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 7,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "d7ba552a-a118-4202-b58e-20f82b6b731e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Das könnte dir auch gefallen",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-subheading-1",
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1",
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -967,6 +1042,8 @@
     "a6be7bf4-ea5e-40c4-8a7d-f8526de0035e",
     "1ad5cf37-fa29-4b6b-9764-ead506898dca",
     "559a9ff1-2ebf-4c37-a18a-365417d11bd7",
-    "51da9878-7d8a-47da-a168-1e21b7ec3a9d"
+    "51da9878-7d8a-47da-a168-1e21b7ec3a9d",
+    "a6a0d852-a2fd-4a35-b3e0-ef461681f35c",
+    "d7ba552a-a118-4202-b58e-20f82b6b731e"
   ]
 }
