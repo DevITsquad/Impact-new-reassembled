@@ -88,6 +88,12 @@
     #shopify-section-{{ section.id }} .content-text__custom{
       font-size:{{section.settings.content_font_size_mobile}}px;
     }
+    #shopify-section-{{ section.id }}  .prev-next-buttons_custom{
+    order:-1;
+    }
+    #shopify-section-{{ section.id }}  .multiple-images-with-text__content-list_custom{
+      place-items: center;
+    }
   }
 </style>
 
@@ -147,8 +153,8 @@
       {%- endif -%}
     </multiple-images-with-text-image-list>
 
-    <div class="multiple-images-with-text__content-with-nav">
-      <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list">
+    <div class="multiple-images-with-text__content-with-nav multiple-images-with-text__content-with-nav_custom">
+      <multiple-images-with-text-content-list swipeable="false" class="multiple-images-with-text__content-list multiple-images-with-text__content-list_custom">
         {%- assign outputted_text_count = 0 -%}
 
         {%- for block in section.blocks -%}
@@ -196,7 +202,7 @@
       </multiple-images-with-text-content-list>
 
       {%- if outputted_text_count > 1 -%}
-        <div class="prev-next-buttons">
+        <div class="prev-next-buttons prev-next-buttons_custom">
           <button is="prev-button" class="circle-button ring group">
             <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
             <span class="animated-arrow animated-arrow--reverse"></span>
