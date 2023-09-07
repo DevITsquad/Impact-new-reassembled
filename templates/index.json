@@ -438,7 +438,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
-            "heading": "Heading",
+            "heading": "",
             "heading_tag": "h1"
           }
         },
