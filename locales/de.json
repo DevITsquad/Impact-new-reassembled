@@ -302,7 +302,7 @@
       "subtotal": "Zwischensumme",
       "total": "Gesamtbetrag",
       "taxes_and_shipping_policy_at_checkout_html": "Steuern und <a href=\"{{ link }}\" class=\"link\">Versand<\/a> werden beim Checkout berechnet",
-      "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, Versand wird beim Checkout berechnet",
+      "taxes_included_but_shipping_at_checkout": "Inklusive Steuern, der Versand ist kostenlos",
       "taxes_included_and_shipping_policy_html": "Inklusive Steuern. <a href=\"{{ link }}\" class=\"link\">Versand <\/a> wird beim Checkout berechnet",
       "taxes_and_shipping_at_checkout": "Steuern und Versand werden beim Checkout berechnet",
       "add_order_note": "Bestellhinweis hinzufügen",
@@ -310,7 +310,7 @@
       "order_note": "Bestellhinweis",
       "save_note": "Speichern",
       "view_cart": "Warenkorb ansehen",
-      "checkout": "Zur Kasse",
+      "checkout": "Sicher zur Kasse",
       "we_accept": "Wir akzeptieren"
     },
     "order": {

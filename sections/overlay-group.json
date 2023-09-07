@@ -23,14 +23,16 @@
         "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
       }
     },
-    "cart-drawer": {
-      "type": "cart-drawer",
+    "cart-drawer-MOD" : {
+      "type": "cart-drawer-MOD",
       "settings": {
         "show_cart_note": false,
         "show_shipping_text": true,
         "show_view_cart_button": false,
         "show_checkout_button": true,
         "recommendations_title": "Trending this month",
+        "caption": "<p>Gute Wahl! Der BRU Maker ist bald bei dir<\/p>",
+        "below_price": "<p>Unverbindlich 30 Tage testen<\/p>",
         "products": [
 
         ],
@@ -51,7 +53,7 @@
   "order": [
     "newsletter-popup",
     "privacy-banner",
-    "cart-drawer",
+    "cart-drawer-MOD",
     "search-drawer"
   ]
 }
