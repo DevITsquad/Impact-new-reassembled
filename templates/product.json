@@ -839,13 +839,70 @@
         "spacing": "small"
       }
     },
+    "d7ba552a-a118-4202-b58e-20f82b6b731e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Das könnte dir auch gefallen",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a6a0d852-a2fd-4a35-b3e0-ef461681f35c": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products": [
+          "bru-japan-sencha",
+          "bru-indian-assam",
+          "bru-fresh-peach",
+          "bru-tropical-ice-tea",
+          "bru-mug",
+          "bru-wasserfilter"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 7,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "559a9ff1-2ebf-4c37-a18a-365417d11bd7": {
       "type": "newsletter-MOD",
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Rectangle_66.jpg",
         "show_icon": false,
-        "title": "Newsletter",
+        "title": "Der BRU Newsletter",
         "heading_font_size": 26,
         "heading_font_size_mobile": 26,
         "heading_color": "#000000",
@@ -954,77 +1011,6 @@
         "heading_color": "",
         "heading_gradient": ""
       }
-    },
-    "a6a0d852-a2fd-4a35-b3e0-ef461681f35c": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "",
-        "products": [
-          "bru-japan-sencha",
-          "bru-indian-assam",
-          "bru-fresh-peach",
-          "bru-tropical-ice-tea",
-          "bru-mug",
-          "bru-wasserfilter"
-        ],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 7,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
-    "d7ba552a-a118-4202-b58e-20f82b6b731e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Das könnte dir auch gefallen",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-subheading-1",
-        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1",
-        "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-richtext-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -1041,9 +1027,9 @@
     "48d7974c-ce63-49e8-996b-eefd44a9c672",
     "a6be7bf4-ea5e-40c4-8a7d-f8526de0035e",
     "1ad5cf37-fa29-4b6b-9764-ead506898dca",
-    "559a9ff1-2ebf-4c37-a18a-365417d11bd7",
-    "51da9878-7d8a-47da-a168-1e21b7ec3a9d",
+    "d7ba552a-a118-4202-b58e-20f82b6b731e",
     "a6a0d852-a2fd-4a35-b3e0-ef461681f35c",
-    "d7ba552a-a118-4202-b58e-20f82b6b731e"
+    "559a9ff1-2ebf-4c37-a18a-365417d11bd7",
+    "51da9878-7d8a-47da-a168-1e21b7ec3a9d"
   ]
 }
