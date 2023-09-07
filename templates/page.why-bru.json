@@ -56,66 +56,6 @@
         "background_gradient": ""
       }
     },
-    "452ef855-89f4-4ea2-b8cc-7683e6d3b055": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16023188242593__452ef855-89f4-4ea2-b8cc-7683e6d3b055-1677056339bac4389a-2": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1><\/h1><h1>Keine Kapseln oder Pods<\/h1>"
-          }
-        },
-        "ead1db4c-1a04-42ab-91c5-3f69f59d22cb": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1><\/h1><h1>Tee auf Knopfdruck  <\/h1>"
-          }
-        },
-        "9b947ec1-52da-4f97-a361-65c9391661dc": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1><\/h1><h1>Gleichbleibender Geschmack <\/h1>"
-          }
-        },
-        "6e994638-4452-4462-a373-3d127652947d": {
-          "type": "richtext",
-          "settings": {
-            "content": "<h1><\/h1><h1>Nachhaltig zubereitet<\/h1>"
-          }
-        },
-        "fcededdd-29c4-4d6f-9c2e-1d1190b927c8": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "lg",
-            "text": "Jetzt entdecken",
-            "url": "shopify:\/\/products\/bru-maker-one",
-            "background": "#8ba473",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "template--16023188242593__452ef855-89f4-4ea2-b8cc-7683e6d3b055-1677056339bac4389a-2",
-        "ead1db4c-1a04-42ab-91c5-3f69f59d22cb",
-        "9b947ec1-52da-4f97-a361-65c9391661dc",
-        "6e994638-4452-4462-a373-3d127652947d",
-        "fcededdd-29c4-4d6f-9c2e-1d1190b927c8"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "enable_parallax": true,
-        "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/BRU_MAKER_ONE_business_tea_machine_header_image_b_1.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/BRU_MAKER_ONE_business_tea_machine_header_image_b_1.jpg",
-        "mobile_text_position": "place-self-center-start text-start",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#1a2f33",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 84
-      }
-    },
     "16114845-b71d-46c7-b179-fefe506ec5b3": {
       "type": "rich-text",
       "blocks": {
@@ -148,6 +88,171 @@
         "text_color": ""
       }
     },
+    "3d208131-f78c-472a-812b-57c7fec27269": {
+      "type": "media-with-text-MOD",
+      "blocks": {
+        "88d4be98-92fa-48b3-88be-5aa274af3548": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-07-30_um_11.06.53.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_size": 100,
+            "icon_size_mobile": 60,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "9a90811c-dde8-4a05-a2b4-3fba13b07d3a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_use_any_type_of_tea_in_your_tea_machine.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_size": 100,
+            "icon_size_mobile": 60,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "7b0f7fb2-ba14-4bfa-846d-ac83581b1997": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AdobeStock_123222193.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_size": 100,
+            "icon_size_mobile": 60,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "a0dca60e-a3b8-45c5-84ec-fc1c4b0950f3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-07-30_um_11.31.00.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_size": 100,
+            "icon_size_mobile": 60,
+            "subheading": "Energiesparend",
+            "title": "",
+            "content": "<p>Wer kenn das nicht.. es wird mehr Wasser aufgekocht, als eigentlich nötig. Dabei werden weltweit jährlich Millionen von Tonnen CO₂ verschwendet. Lass uns die Umwelt schonen und mit dem BRU Maker One nur genau so viel Wasser erhitzen, wie für deine Tasse nötig.<\/p><p>Sag \"tschüss\" zu deinem Wasserkocher.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "a6c4dc16-3cee-4809-9ee5-36e141090a33": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-07-30_um_11.45.12.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_size": 100,
+            "icon_size_mobile": 60,
+            "subheading": "Multifunktional",
+            "title": "",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "751a07b7-7408-484b-8cc1-0444555a0dbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRU_tea_maker_founders_Bogdan_Krinitchko_and_Filip_Carlberg_cheers_2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_size": 100,
+            "icon_size_mobile": 60,
+            "subheading": "Von Teetrinkern entwickelt",
+            "title": "",
+            "content": "<p>Wir lieben Tee und wir möchten, dass auch du das Beste aus deinem Tee herausholst. <\/p><p>Bequem zubereitet und ohne lästige Kapseln. Viel Spass mit dem BRU Maker One. <\/p><p><strong>Cheers! <\/strong><\/p><p>Filip & Bogdan, Gründer von BRU<\/p>",
+            "link_text": "hole dir jetzt den BRU Maker One",
+            "link_url": "shopify:\/\/products\/bru-maker-one",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "88d4be98-92fa-48b3-88be-5aa274af3548",
+        "9a90811c-dde8-4a05-a2b4-3fba13b07d3a",
+        "7b0f7fb2-ba14-4bfa-846d-ac83581b1997",
+        "a0dca60e-a3b8-45c5-84ec-fc1c4b0950f3",
+        "a6c4dc16-3cee-4809-9ee5-36e141090a33",
+        "751a07b7-7408-484b-8cc1-0444555a0dbd"
+      ],
+      "settings": {
+        "full_width": false,
+        "is_small_bottom_padding": false,
+        "subheading_font_size": 23,
+        "subheading_font_size_mobile": 19,
+        "subheading_color": "#000000",
+        "heading_font_size": 21,
+        "heading_font_size_mobile": 18,
+        "heading_color": "#A9A9C3",
+        "content_font_size": 22,
+        "content_font_size_mobile": 17,
+        "content_color": "#000000",
+        "spacing": "small"
+      }
+    },
     "f82d375a-a66b-4c9c-a4e5-1b1b5d005739": {
       "type": "media-with-text",
       "blocks": {
@@ -177,6 +282,7 @@
       "block_order": [
         "template--16114935464097__f82d375a-a66b-4c9c-a4e5-1b1b5d005739-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -211,6 +317,7 @@
       "block_order": [
         "template--16114935464097__763731d7-99d5-4185-8160-bd3223366b01-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -245,6 +352,7 @@
       "block_order": [
         "template--16114935464097__196a65a5-8efc-4acb-90b9-a55ccb39d884-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -313,6 +421,7 @@
       "block_order": [
         "template--16114935464097__b683aaa5-efc8-485d-9265-cc932d10ac37-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -347,6 +456,7 @@
       "block_order": [
         "template--16023188242593__d41c8a62-000b-4144-826f-6305b8b8249a-167705913267d623c9-0"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -402,8 +512,8 @@
   "order": [
     "main",
     "1592c810-08db-42c4-842b-23fdcc0967f5",
-    "452ef855-89f4-4ea2-b8cc-7683e6d3b055",
     "16114845-b71d-46c7-b179-fefe506ec5b3",
+    "3d208131-f78c-472a-812b-57c7fec27269",
     "f82d375a-a66b-4c9c-a4e5-1b1b5d005739",
     "763731d7-99d5-4185-8160-bd3223366b01",
     "196a65a5-8efc-4acb-90b9-a55ccb39d884",
