@@ -329,6 +329,7 @@
       ],
       "settings": {
         "full_width": false,
+        "mobile_margin": 0,
         "is_small_bottom_padding": true,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
@@ -346,6 +347,7 @@
       "type": "before-after-image-MOD",
       "settings": {
         "full_width": true,
+        "mobile_margin": 0,
         "is_small_bottom_padding": true,
         "subheading": "Egal ob Tasse oder Kanne",
         "subheading_font_size": 23,
@@ -432,6 +434,7 @@
       ],
       "settings": {
         "full_width": false,
+        "mobile_margin": 0,
         "is_small_bottom_padding": false,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
@@ -826,6 +829,7 @@
       ],
       "settings": {
         "full_width": false,
+        "mobile_margin": 0,
         "is_small_bottom_padding": false,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
@@ -855,6 +859,7 @@
       "block_order": [
         "template--16152426414241__d7ba552a-a118-4202-b58e-20f82b6b731e-heading-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
@@ -866,6 +871,7 @@
     },
     "a6a0d852-a2fd-4a35-b3e0-ef461681f35c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "products": [
