@@ -87,7 +87,7 @@
         "cba948e9-62aa-4c71-97f3-9095a611af09": {
           "type": "text",
           "settings": {
-            "text": "<p>Kostenlose Lieferung<\/p><p>Sofort versandfertig, Lieferfrist 1-3 Tage<\/p>",
+            "text": "<h5>Kostenlose Lieferung<\/h5><h5>Sofort versandfertig, Lieferfrist 1-3 Tage<\/h5>",
             "text_color": "",
             "font_size_desc": 18,
             "font_size_mobile": 16
