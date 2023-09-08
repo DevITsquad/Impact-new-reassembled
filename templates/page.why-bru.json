@@ -22,7 +22,7 @@
             "subheading_font_size_mobile": 16,
             "title": "",
             "heading_tag": "h0",
-            "content": "<p>Keine Kapseln oder Pods<br\/>Tee auf Knopfdruck<br\/>Gleichbleibender Geschmack<br\/>Nachhaltig zubereitet<\/p>",
+            "content": "<h3>Keine Kapseln oder Pods<\/h3><h3><br\/>Tee auf Knopfdruck<\/h3><h3><br\/>Gleichbleibender Geschmack<\/h3><h3><br\/>Nachhaltig zubereitet<\/h3>",
             "is_grey_back": false,
             "content_font_size": 18,
             "content_font_size_mobile": 16,
@@ -36,7 +36,7 @@
             "button_background": "#8ba473",
             "button_text_color": "#ffffff",
             "overlay_color": "#ffffff",
-            "overlay_opacity": 59,
+            "overlay_opacity": 87,
             "background": "",
             "background_gradient": ""
           }
@@ -55,6 +55,52 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "37c926ab-7dc6-4c58-871b-e41f507d2421": {
+      "type": "tabs",
+      "blocks": {
+        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Praktisch",
+            "content": "<p>Im Leben gibt es mehr als genug Dinge, die man erlernen muss. Die Zubereitung eines genüsslichen Tees sollte nicht dazugehören. <strong>Mit dem BRU Maker One vereinfachen wir Teezubereitung<\/strong>, damit du dich mehr auf den Genuss des Tees fokussieren können, anstatt dessen Zubereitung.<br\/><\/p><p>Die Wichtigkeit der richtigen Wassertemperatur, Wassermenge und Brühzeit wird oft unterschätzt. Jedoch wirken sich diese Faktoren enorm auf den Geschmack deines Tees aus. Die richtige Handhabung dieser Parameter ist oftmals mühsam und erfordert spezielle Kenntnisse. Mit dem BRU Maker One kann jeder (vom absoluten Anfänger bis zum erfahrenen Teekenner) das Beste aus dem Tee herausholen. <strong>Darüber hinaus kannst du jede beliebige Teesorte und Teeform (lose oder im Beutel) verwenden. <\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Gleichbleibend",
+            "content": "<p>Brüht man eine Tasse Tee von Hand auf, variieren Intensität, Bitterkeit, Temperatur, etc. von Tasse zu Tasse. Oft kann nicht nachvollzogen werden, weshalb der Tee anders schmeckt. <\/p><p>Mit dem BRU Maker One übernimmst du die Kontrolle. Speichere die Einstellungen für Temperatur, Menge und Brühzeit, <strong>um bei jedem Brühvorgang ein konstantes Ergebnis zu erzielen.<\/strong><\/p><p><br\/>Immer und immer wieder.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-2": {
+          "type": "tab",
+          "settings": {
+            "title": "Nachhaltig",
+            "content": "<p>Tee ist eines der meist getrunkenen Getränke der Welt. Viele neigen jedoch dazu, mehr Wasser zu erhitzen als tatsächlich gebraucht wird. Weltweit zieht dies eine erhebliche Verschwendung von Zeit, Energie, Wasser und Geld nach sich. Allein im Vereinigten Königreich werden dadurch täglich rund 3500 Tonnen CO2 verschwendet.<br\/><\/p><p><strong>Der BRU Maker One erhitzt nur die benötigte Wassermenge, auf die vorgegebene Temperatur.<\/strong> Bei BRU treiben wir die Nachhaltigkeit in der Branche voran, in dem wir Materialien und Lösungen wählen, die langfristig verwendet werden können und ressourcenschonend sind. <\/p><p>Das fängt beim Grundsatz, dass die Maschine <strong>ohne Kapseln arbeitet an, und hört bei der 100% recyclebaren Verpackung auf.<\/strong><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-0",
+        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-1",
+        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "large",
+        "subheading": "",
+        "title": "Der BRU Maker One ist nicht nur ein  Teeautomat. Er spiegelt vielmehr unsere Vision wider, wie die Zubereitung von Tee in der Zukunft stattfinden sollte",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "16114845-b71d-46c7-b179-fefe506ec5b3": {
@@ -80,10 +126,11 @@
         "template--16114935464097__16114845-b71d-46c7-b179-fefe506ec5b3-heading-1",
         "template--16114935464097__16114845-b71d-46c7-b179-fefe506ec5b3-richtext-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "center",
+        "text_position": "start",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -241,6 +288,7 @@
       ],
       "settings": {
         "full_width": false,
+        "mobile_margin": 0,
         "is_small_bottom_padding": false,
         "subheading_font_size": 23,
         "subheading_font_size_mobile": 19,
@@ -253,59 +301,13 @@
         "content_color": "#000000",
         "spacing": "small"
       }
-    },
-    "37c926ab-7dc6-4c58-871b-e41f507d2421": {
-      "type": "tabs",
-      "blocks": {
-        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-0": {
-          "type": "tab",
-          "settings": {
-            "title": "Praktisch",
-            "content": "<p>Im Leben gibt es mehr als genug Dinge, die man erlernen muss. Die Zubereitung eines genüsslichen Tees sollte nicht dazugehören. <strong>Mit dem BRU Maker One vereinfachen wir Teezubereitung<\/strong>, damit du dich mehr auf den Genuss des Tees fokussieren können, anstatt dessen Zubereitung.<br\/><\/p><p>Die Wichtigkeit der richtigen Wassertemperatur, Wassermenge und Brühzeit wird oft unterschätzt. Jedoch wirken sich diese Faktoren enorm auf den Geschmack deines Tees aus. Die richtige Handhabung dieser Parameter ist oftmals mühsam und erfordert spezielle Kenntnisse. Mit dem BRU Maker One kann jeder (vom absoluten Anfänger bis zum erfahrenen Teekenner) das Beste aus dem Tee herausholen. <strong>Darüber hinaus kannst du jede beliebige Teesorte und Teeform (lose oder im Beutel) verwenden. <\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-1": {
-          "type": "tab",
-          "settings": {
-            "title": "Gleichbleibend",
-            "content": "<p>Brüht man eine Tasse Tee von Hand auf, variieren Intensität, Bitterkeit, Temperatur, etc. von Tasse zu Tasse. Oft kann nicht nachvollzogen werden, weshalb der Tee anders schmeckt. <\/p><p>Mit dem BRU Maker One übernimmst du die Kontrolle. Speichere die Einstellungen für Temperatur, Menge und Brühzeit, <strong>um bei jedem Brühvorgang ein konstantes Ergebnis zu erzielen.<\/strong><\/p><p><br\/>Immer und immer wieder.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-2": {
-          "type": "tab",
-          "settings": {
-            "title": "Nachhaltig",
-            "content": "<p>Tee ist eines der meist getrunkenen Getränke der Welt. Viele neigen jedoch dazu, mehr Wasser zu erhitzen als tatsächlich gebraucht wird. Weltweit zieht dies eine erhebliche Verschwendung von Zeit, Energie, Wasser und Geld nach sich. Allein im Vereinigten Königreich werden dadurch täglich rund 3500 Tonnen CO2 verschwendet.<br\/><\/p><p><strong>Der BRU Maker One erhitzt nur die benötigte Wassermenge, auf die vorgegebene Temperatur.<\/strong> Bei BRU treiben wir die Nachhaltigkeit in der Branche voran, in dem wir Materialien und Lösungen wählen, die langfristig verwendet werden können und ressourcenschonend sind. <\/p><p>Das fängt beim Grundsatz, dass die Maschine <strong>ohne Kapseln arbeitet an, und hört bei der 100% recyclebaren Verpackung auf.<\/strong><\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-0",
-        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-1",
-        "template--16023188242593__37c926ab-7dc6-4c58-871b-e41f507d2421-1677059564eee4bb3b-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "subheading": "",
-        "title": "Der BRU Maker One ist nicht nur ein  Teeautomat. Er spiegelt vielmehr unsere Vision wider, wie die Zubereitung von Tee in der Zukunft stattfinden sollte",
-        "first_tab_open": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
     "main",
     "1592c810-08db-42c4-842b-23fdcc0967f5",
+    "37c926ab-7dc6-4c58-871b-e41f507d2421",
     "16114845-b71d-46c7-b179-fefe506ec5b3",
-    "3d208131-f78c-472a-812b-57c7fec27269",
-    "37c926ab-7dc6-4c58-871b-e41f507d2421"
+    "3d208131-f78c-472a-812b-57c7fec27269"
   ]
 }
