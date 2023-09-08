@@ -64,7 +64,7 @@
           "type": "tab",
           "settings": {
             "title": "Praktisch",
-            "content": "<p>Im Leben gibt es mehr als genug Dinge, die man erlernen muss. Die Zubereitung eines genüsslichen Tees sollte nicht dazugehören. <strong>Mit dem BRU Maker One vereinfachen wir Teezubereitung<\/strong>, damit du dich mehr auf den Genuss des Tees fokussieren können, anstatt dessen Zubereitung.<br\/><\/p><p>Die Wichtigkeit der richtigen Wassertemperatur, Wassermenge und Brühzeit wird oft unterschätzt. Jedoch wirken sich diese Faktoren enorm auf den Geschmack deines Tees aus. Die richtige Handhabung dieser Parameter ist oftmals mühsam und erfordert spezielle Kenntnisse. Mit dem BRU Maker One kann jeder (vom absoluten Anfänger bis zum erfahrenen Teekenner) das Beste aus dem Tee herausholen. <strong>Darüber hinaus kannst du jede beliebige Teesorte und Teeform (lose oder im Beutel) verwenden. <\/strong><\/p>",
+            "content": "<h5>Im Leben gibt es mehr als genug Dinge, die man erlernen muss. Die Zubereitung eines genüsslichen Tees sollte nicht dazugehören. <strong>Mit dem BRU Maker One vereinfachen wir Teezubereitung<\/strong>, damit du dich mehr auf den Genuss des Tees fokussieren können, anstatt dessen Zubereitung.<br\/><\/h5><h5>Die Wichtigkeit der richtigen Wassertemperatur, Wassermenge und Brühzeit wird oft unterschätzt. Jedoch wirken sich diese Faktoren enorm auf den Geschmack deines Tees aus. Die richtige Handhabung dieser Parameter ist oftmals mühsam und erfordert spezielle Kenntnisse. Mit dem BRU Maker One kann jeder (vom absoluten Anfänger bis zum erfahrenen Teekenner) das Beste aus dem Tee herausholen. <strong>Darüber hinaus kannst du jede beliebige Teesorte und Teeform (lose oder im Beutel) verwenden. <\/strong><\/h5>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "type": "tab",
           "settings": {
             "title": "Gleichbleibend",
-            "content": "<p>Brüht man eine Tasse Tee von Hand auf, variieren Intensität, Bitterkeit, Temperatur, etc. von Tasse zu Tasse. Oft kann nicht nachvollzogen werden, weshalb der Tee anders schmeckt. <\/p><p>Mit dem BRU Maker One übernimmst du die Kontrolle. Speichere die Einstellungen für Temperatur, Menge und Brühzeit, <strong>um bei jedem Brühvorgang ein konstantes Ergebnis zu erzielen.<\/strong><\/p><p><br\/>Immer und immer wieder.<\/p>",
+            "content": "<h5>Brüht man eine Tasse Tee von Hand auf, variieren Intensität, Bitterkeit, Temperatur, etc. von Tasse zu Tasse. Oft kann nicht nachvollzogen werden, weshalb der Tee anders schmeckt. <\/h5><h5>Mit dem BRU Maker One übernimmst du die Kontrolle. Speichere die Einstellungen für Temperatur, Menge und Brühzeit, <strong>um bei jedem Brühvorgang ein konstantes Ergebnis zu erzielen.<\/strong><\/h5><h5><br\/>Immer und immer wieder.<\/h5>",
             "page": ""
           }
         },
@@ -80,7 +80,7 @@
           "type": "tab",
           "settings": {
             "title": "Nachhaltig",
-            "content": "<p>Tee ist eines der meist getrunkenen Getränke der Welt. Viele neigen jedoch dazu, mehr Wasser zu erhitzen als tatsächlich gebraucht wird. Weltweit zieht dies eine erhebliche Verschwendung von Zeit, Energie, Wasser und Geld nach sich. Allein im Vereinigten Königreich werden dadurch täglich rund 3500 Tonnen CO2 verschwendet.<br\/><\/p><p><strong>Der BRU Maker One erhitzt nur die benötigte Wassermenge, auf die vorgegebene Temperatur.<\/strong> Bei BRU treiben wir die Nachhaltigkeit in der Branche voran, in dem wir Materialien und Lösungen wählen, die langfristig verwendet werden können und ressourcenschonend sind. <\/p><p>Das fängt beim Grundsatz, dass die Maschine <strong>ohne Kapseln arbeitet an, und hört bei der 100% recyclebaren Verpackung auf.<\/strong><\/p>",
+            "content": "<h5>Tee ist eines der meist getrunkenen Getränke der Welt. Viele neigen jedoch dazu, mehr Wasser zu erhitzen als tatsächlich gebraucht wird. Weltweit zieht dies eine erhebliche Verschwendung von Zeit, Energie, Wasser und Geld nach sich. Allein im Vereinigten Königreich werden dadurch täglich rund 3500 Tonnen CO2 verschwendet.<br\/><\/h5><h5><strong>Der BRU Maker One erhitzt nur die benötigte Wassermenge, auf die vorgegebene Temperatur.<\/strong> Bei BRU treiben wir die Nachhaltigkeit in der Branche voran, in dem wir Materialien und Lösungen wählen, die langfristig verwendet werden können und ressourcenschonend sind. <\/h5><h5>Das fängt beim Grundsatz, dass die Maschine <strong>ohne Kapseln arbeitet an, und hört bei der 100% recyclebaren Verpackung auf.<\/strong><\/h5>",
             "page": ""
           }
         }
@@ -145,7 +145,7 @@
             "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-07-30_um.png",
             "media_width": 50,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-end text-end",
             "icon": "none",
             "icon_size": 100,
             "icon_size_mobile": 60,
@@ -168,7 +168,7 @@
             "image": "shopify:\/\/shop_images\/BRU_use_any_type_of_tea_in_your_tea_machine.jpg",
             "media_width": 50,
             "media_position": "end",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_size": 100,
             "icon_size_mobile": 60,
@@ -191,7 +191,7 @@
             "image": "shopify:\/\/shop_images\/AdobeStock_123222193.jpg",
             "media_width": 50,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-end text-end",
             "icon": "none",
             "icon_size": 100,
             "icon_size_mobile": 60,
@@ -214,7 +214,7 @@
             "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-07-30_um_11.31.00.png",
             "media_width": 50,
             "media_position": "end",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_size": 100,
             "icon_size_mobile": 60,
@@ -237,7 +237,7 @@
             "image": "shopify:\/\/shop_images\/Bildschirmfoto_2023-07-30_um_11.45.12.png",
             "media_width": 50,
             "media_position": "start",
-            "text_position": "place-self-center text-center",
+            "text_position": "place-self-center-end text-end",
             "icon": "none",
             "icon_size": 100,
             "icon_size_mobile": 60,
