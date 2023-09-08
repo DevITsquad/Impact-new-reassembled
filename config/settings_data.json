@@ -30,6 +30,7 @@
     "heading_apparition": "split_fade",
     "color_swatch_config": "Schwarz Chrome: swatch_black_chrome.png\nSchwarz Gold: swatch_black_gold.png\nWeiss Chrome: swatch_white_chrome.png\nWeiss Gold: swatch_white_gold.png\nBlack Chrome: swatch_black_chrome.png\nBlack Gold: swatch_black_gold.png\nWhite Chrome: swatch_white_chrome.png\nWhite Gold: swatch_white_gold.png",
     "show_quick_buy": false,
+    "show_discount": false,
     "product_color_display": "hide",
     "product_image_aspect_ratio": "short",
     "product_info_alignment": "center",
