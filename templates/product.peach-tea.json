@@ -84,6 +84,15 @@
           "settings": {
           }
         },
+        "eaa610b1-334f-47a6-addf-8138e53be712": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Kostenlose Lieferung<\/h5><h5>Sofort versandfertig, Lieferfrist 1-3 Tage<\/h5>",
+            "text_color": "",
+            "font_size_desc": 18,
+            "font_size_mobile": 16
+          }
+        },
         "b85808d9-309d-401a-b171-dbc41fd62cf0": {
           "type": "buy_buttons",
           "settings": {
@@ -119,6 +128,7 @@
         "ea4b2ba5-355a-4ad1-a9ca-1c599e7c5b80",
         "07ad492a-6c6f-49cf-8b1b-90a56a09e01e",
         "555abb21-05c1-4048-bccc-e0d6d15d784e",
+        "eaa610b1-334f-47a6-addf-8138e53be712",
         "b85808d9-309d-401a-b171-dbc41fd62cf0",
         "9e5cf489-3824-4390-aef3-f9f0eb23af01"
       ],
